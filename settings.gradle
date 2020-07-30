@@ -1,0 +1,3 @@
+include ':CountryListLibrary'
+include ':app'
+rootProject.name = "Library"

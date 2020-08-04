@@ -5,4 +5,10 @@
     <dimen name="dp_6">6dp</dimen>
     <dimen name="sp_14">14sp</dimen>
     <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="radius_action_button">4dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
 </resources>

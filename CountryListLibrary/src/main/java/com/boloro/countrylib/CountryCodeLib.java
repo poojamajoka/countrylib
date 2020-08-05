@@ -16,7 +16,6 @@ import androidx.appcompat.widget.AppCompatEditText;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -38,16 +37,22 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         return view;
     }
 
+    /**
+     *
+     * @param callback countrycode callback listner
+     * @return instance
+     */
     public static CountryCodeLib getInstance(CountryCodeListner callback) {
-        CountryCodeLib picker = new CountryCodeLib(callback);
-
-        return picker;
+        return new CountryCodeLib(callback);
     }
-    private void showSearchDialog(View view) {
-        List<Country> countries = ISDCodeProvider.getIsdCodeProvider().getCountries();
 
-       // Dialog searchDialog = AppUtility.setDialogProperty(getContext(), R.layout.search_dialog);
-       // searchDialog.setCancelable(true);
+    /**
+     * show country dialog
+     * @param view view
+     */
+    private void showSearchDialog(View view) {
+        ISDCodeProvider.initialize(getContext());
+        List<Country> countries = ISDCodeProvider.getIsdCodeProvider().getCountries();
         RecyclerView recycleView = view.findViewById(R.id.recycler_view);
         recycleView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         recycleView.setHasFixedSize(true);
@@ -84,13 +89,20 @@ public class CountryCodeLib extends AppCompatDialogFragment {
             inputView.setText("");
         });
         setCancelable(true);
+        
 
     }
 
+    /**
+     * country code change listener
+     */
     public interface CountryCodeChangeListener {
         void onCodeChangeListener(Country country);
     }
 
+    /**
+     * isd code change listener
+     */
     public interface IsdCodeChangeListener {
         void onCodeChangeListener(Country country);
     }
@@ -124,8 +136,6 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         selectedCountry = country;
         countryCodeListner.getCountryCode(String.format(Locale.ENGLISH, "+%s", selectedCountry.getIsdCode()));
         countryCodeListner.getCountryflag(isdCodeProvider.getFlagEmoji(selectedCountry.getId()));
-      //  mBinding.inputCountyFlag.setText(isdCodeProvider.getFlagEmoji(selectedCountry.getId()));
-       // mBinding.tvIsdCode.setText(String.format(Locale.ENGLISH, "+%s", selectedCountry.getIsdCode()));
 
         if (countryCodeListener != null)
             countryCodeListener.onCodeChangeListener(selectedCountry);
@@ -140,9 +150,20 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         this.isdCodeListener = listener;
     }
 
-
+    /**
+     * countrycode listner to return counrty code and flag
+     */
     public interface CountryCodeListner{
+        /**
+         *
+         * @param code return country code
+         */
         void getCountryCode(String code);
+
+        /**
+         *
+         * @param flag return flag
+         */
         void getCountryflag(String flag);
     }
 

@@ -1,5 +1,6 @@
 package com.boloro.countrylib;
 
+import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextUtils;
@@ -24,8 +25,13 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     private static CountryCodeLib instance;
 
     public CountryCodeLib(CountryCodeListner callback) {
-        countryCodeListner = callback;
+        countryCodeListner=callback;
     }
+
+    public CountryCodeLib() {
+
+    }
+
 
     @Nullable
     @Override
@@ -35,23 +41,34 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         return view;
     }
 
+
+    public synchronized static void initialize(Context context) {
+        if (instance == null) {
+            instance = new CountryCodeLib();
+            ISDCodeProvider.initialize(context);
+            instance.setLisnter((CountryCodeListner) context);
+        }
+    }
+
     /**
      * @param callback countrycode callback listner
-     * @return instance
      */
+    public void setLisnter(CountryCodeListner callback) {
+        countryCodeListner = callback;
+    }
+
+    /**
+     * @return instance of class
+     */
+    public static CountryCodeLib getInstance() {
+        return instance;
+    }
     public static CountryCodeLib getInstance(CountryCodeListner callback) {
         instance=new CountryCodeLib(callback);
         return instance;
     }
 
-    /**
-     *
-     * @return instance of class
-     */
 
-    public static CountryCodeLib getInstance() {
-        return instance;
-    }
 
     /**
      * show country dialog
@@ -59,7 +76,6 @@ public class CountryCodeLib extends AppCompatDialogFragment {
      * @param view view
      */
     private void showSearchDialog(View view) {
-        ISDCodeProvider.initialize(getContext());
         List<Country> countries = ISDCodeProvider.getIsdCodeProvider().getCountries();
         RecyclerView recycleView = view.findViewById(R.id.recycler_view);
         recycleView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
@@ -102,17 +118,15 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     }
 
     /**
-     *
      * @param countryCode user selected countryCode
      */
-    public  void setCountryCode(String countryCode) {
+    public void setCountryCode(String countryCode) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         Country country = isdCodeProvider.getCountryFromCountryCode(countryCode);
         processIsdCode(country);
     }
 
     /**
-     *
      * @param isdCode user selected isdcode
      */
     public void setIsdCode(String isdCode) {
@@ -124,7 +138,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         processIsdCode(selectedCountry);
     }
 
-    private  void processIsdCode(Country country) {
+    private void processIsdCode(Country country) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (country == null)
             country = isdCodeProvider.getDefaultCountry();

@@ -21,12 +21,10 @@ import java.util.List;
 public class CountryCodeLib extends AppCompatDialogFragment {
     private Country selectedCountry;
     CountryCodeListner countryCodeListner;
+    private static CountryCodeLib instance;
 
     public CountryCodeLib(CountryCodeListner callback) {
         countryCodeListner = callback;
-    }
-
-    public CountryCodeLib() {
     }
 
     @Nullable
@@ -42,15 +40,17 @@ public class CountryCodeLib extends AppCompatDialogFragment {
      * @return instance
      */
     public static CountryCodeLib getInstance(CountryCodeListner callback) {
-        return new CountryCodeLib(callback);
+        instance=new CountryCodeLib(callback);
+        return instance;
     }
 
     /**
      *
      * @return instance of class
      */
+
     public static CountryCodeLib getInstance() {
-        return new CountryCodeLib();
+        return instance;
     }
 
     /**
@@ -105,7 +105,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
      *
      * @param countryCode user selected countryCode
      */
-    public void setCountryCode(String countryCode) {
+    public  void setCountryCode(String countryCode) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         Country country = isdCodeProvider.getCountryFromCountryCode(countryCode);
         processIsdCode(country);
@@ -115,7 +115,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
      *
      * @param isdCode user selected isdcode
      */
-    public void processIsdCode(String isdCode) {
+    public void setIsdCode(String isdCode) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (TextUtils.isEmpty(isdCode))
             selectedCountry = isdCodeProvider.getDefaultCountry();
@@ -124,7 +124,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         processIsdCode(selectedCountry);
     }
 
-    private void processIsdCode(Country country) {
+    private  void processIsdCode(Country country) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (country == null)
             country = isdCodeProvider.getDefaultCountry();

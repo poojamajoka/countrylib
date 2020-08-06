@@ -17,16 +17,16 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
-import java.util.Locale;
 
 public class CountryCodeLib extends AppCompatDialogFragment {
     private Country selectedCountry;
     CountryCodeListner countryCodeListner;
-    private CountryCodeChangeListener countryCodeListener;
-    private IsdCodeChangeListener isdCodeListener;
 
     public CountryCodeLib(CountryCodeListner callback) {
-        countryCodeListner=callback;
+        countryCodeListner = callback;
+    }
+
+    public CountryCodeLib() {
     }
 
     @Nullable
@@ -38,7 +38,6 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     }
 
     /**
-     *
      * @param callback countrycode callback listner
      * @return instance
      */
@@ -47,7 +46,16 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     }
 
     /**
+     *
+     * @return instance of class
+     */
+    public static CountryCodeLib getInstance() {
+        return new CountryCodeLib();
+    }
+
+    /**
      * show country dialog
+     *
      * @param view view
      */
     private void showSearchDialog(View view) {
@@ -80,7 +88,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         adapter.setItemSelectedListener((item, position) -> {
             dismiss();
             if (item != null)
-                setCountryCode(item);
+                processIsdCode(item);
         });
         view.findViewById(R.id.btn_cancel).setOnClickListener(listener_view -> {
             dismiss();
@@ -89,79 +97,54 @@ public class CountryCodeLib extends AppCompatDialogFragment {
             inputView.setText("");
         });
         setCancelable(true);
-        
+
 
     }
 
     /**
-     * country code change listener
+     *
+     * @param countryCode user selected countryCode
      */
-    public interface CountryCodeChangeListener {
-        void onCodeChangeListener(Country country);
-    }
-
-    /**
-     * isd code change listener
-     */
-    public interface IsdCodeChangeListener {
-        void onCodeChangeListener(Country country);
-    }
-
     public void setCountryCode(String countryCode) {
-        if (TextUtils.isEmpty(countryCode))
-            return;
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         Country country = isdCodeProvider.getCountryFromCountryCode(countryCode);
-        setCountryCode(country);
+        processIsdCode(country);
     }
 
-    public void setCountryCode(Country country) {
-        setIsdCode(country);
-    }
-
-    public void setIsdCode(String isdCode) {
+    /**
+     *
+     * @param isdCode user selected isdcode
+     */
+    public void processIsdCode(String isdCode) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (TextUtils.isEmpty(isdCode))
             selectedCountry = isdCodeProvider.getDefaultCountry();
         else
             selectedCountry = isdCodeProvider.getCountryFromIsdCode(isdCode);
-        setIsdCode(selectedCountry);
+        processIsdCode(selectedCountry);
     }
 
-    public void setIsdCode(Country country) {
+    private void processIsdCode(Country country) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (country == null)
             country = isdCodeProvider.getDefaultCountry();
-
         selectedCountry = country;
-        countryCodeListner.getCountryCode(String.format(Locale.ENGLISH, "+%s", selectedCountry.getIsdCode()));
+        countryCodeListner.getCountryCode(country);
         countryCodeListner.getCountryflag(isdCodeProvider.getFlagEmoji(selectedCountry.getId()));
 
-        if (countryCodeListener != null)
-            countryCodeListener.onCodeChangeListener(selectedCountry);
-        if (isdCodeListener != null)
-            isdCodeListener.onCodeChangeListener(selectedCountry);
-    }
-    public void setCountryCodeChangeListener(CountryCodeChangeListener listener) {
-        this.countryCodeListener = listener;
     }
 
-    public void setIsdCodeChangeListener(IsdCodeChangeListener listener) {
-        this.isdCodeListener = listener;
-    }
 
     /**
      * countrycode listner to return counrty code and flag
      */
-    public interface CountryCodeListner{
+    public interface CountryCodeListner {
         /**
-         *
          * @param code return country code
          */
-        void getCountryCode(String code);
+        void getCountryCode(Country code);
 
         /**
-         *
          * @param flag return flag
          */
         void getCountryflag(String flag);

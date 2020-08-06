@@ -177,4 +177,32 @@ public class CountryNationalityLib {
 
         void onCancel();
     }
+    public static String getCountryName(String countryId) {
+        String countryName = "";
+        for (Country country :ISDCodeProvider.getIsdCodeProvider().getCountriesDataList()) {
+            if (country.getId().equalsIgnoreCase(countryId)) {
+                countryName = country.getFullLocaleName();
+                break;
+            }
+        }
+        return countryName;
+    }
+
+    public static Country getCountryFromId(String countryId) {
+        for (Country country : ISDCodeProvider.getIsdCodeProvider().getCountriesDataList()) {
+            if (country.getId().equalsIgnoreCase(countryId)) {
+                return country;
+            }
+        }
+        return null;
+    }
+
+    public static NationalityData getNationalityFromId(String nationId) {
+        for (NationalityData nationality : ISDCodeProvider.getIsdCodeProvider().getNationalityDataList()) {
+            if (nationality.getId().equalsIgnoreCase(nationId)) {
+                return nationality;
+            }
+        }
+        return null;
+    }
 }

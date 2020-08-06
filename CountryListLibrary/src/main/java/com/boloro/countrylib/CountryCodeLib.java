@@ -20,16 +20,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class CountryCodeLib extends AppCompatDialogFragment {
-    private Country selectedCountry;
-    CountryCodeListner countryCodeListner;
-    private static CountryCodeLib instance;
+    private static Country country;
+    private static CountryCodeListner countryCodeListner;
 
     public CountryCodeLib(CountryCodeListner callback) {
-        countryCodeListner=callback;
-    }
-
-    public CountryCodeLib() {
-
+        countryCodeListner = callback;
     }
 
 
@@ -41,33 +36,20 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         return view;
     }
 
-
-    public synchronized static void initialize(Context context) {
-        if (instance == null) {
-            instance = new CountryCodeLib();
-            ISDCodeProvider.initialize(context);
-            instance.setLisnter((CountryCodeListner) context);
-        }
-    }
-
     /**
-     * @param callback countrycode callback listner
+     * intialize isdcode provider
+     * @param context class context
      */
-    public void setLisnter(CountryCodeListner callback) {
-        countryCodeListner = callback;
+    public synchronized static void initialize(Context context) {
+        ISDCodeProvider.initialize(context);
     }
 
     /**
      * @return instance of class
      */
-    public static CountryCodeLib getInstance() {
-        return instance;
-    }
     public static CountryCodeLib getInstance(CountryCodeListner callback) {
-        instance=new CountryCodeLib(callback);
-        return instance;
+        return new CountryCodeLib(callback);
     }
-
 
 
     /**
@@ -120,7 +102,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     /**
      * @param countryCode user selected countryCode
      */
-    public void setCountryCode(String countryCode) {
+    public static void setCountryCode(String countryCode) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         Country country = isdCodeProvider.getCountryFromCountryCode(countryCode);
         processIsdCode(country);
@@ -129,22 +111,24 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     /**
      * @param isdCode user selected isdcode
      */
-    public void setIsdCode(String isdCode) {
+    public static void setIsdCode(String isdCode) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (TextUtils.isEmpty(isdCode))
-            selectedCountry = isdCodeProvider.getDefaultCountry();
+            country = isdCodeProvider.getDefaultCountry();
         else
-            selectedCountry = isdCodeProvider.getCountryFromIsdCode(isdCode);
-        processIsdCode(selectedCountry);
+            country = isdCodeProvider.getCountryFromIsdCode(isdCode);
+        processIsdCode(country);
     }
 
-    private void processIsdCode(Country country) {
+    private static void processIsdCode(Country country) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (country == null)
             country = isdCodeProvider.getDefaultCountry();
-        selectedCountry = country;
-        countryCodeListner.getCountryCode(country);
-        countryCodeListner.getCountryflag(isdCodeProvider.getFlagEmoji(selectedCountry.getId()));
+        CountryCodeLib.country = country;
+        if (countryCodeListner != null) {
+            countryCodeListner.getCountryCode(country);
+            countryCodeListner.getCountryflag(isdCodeProvider.getFlagEmoji(CountryCodeLib.country.getId()));
+        }
 
     }
 

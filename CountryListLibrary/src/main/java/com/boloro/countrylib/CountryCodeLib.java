@@ -1,5 +1,6 @@
 package com.boloro.countrylib;
 
+import android.app.Dialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.Editable;
@@ -18,17 +19,22 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.boloro.countrylib.adapter.CountrySearchAdapter;
+import com.boloro.countrylib.adapter.SearchAdapter;
+import com.boloro.countrylib.helper.Filterable;
 import com.boloro.countrylib.helper.ISDCodeProvider;
 import com.boloro.countrylib.model.Country;
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class CountryCodeLib extends AppCompatDialogFragment {
     private static Country country;
     private static CountryCodeListner countryCodeListner;
+    private View view;
 
     /**
-     *
      * @param callback interface callback
      */
     public CountryCodeLib(CountryCodeListner callback) {
@@ -44,17 +50,18 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.search_dialog, container, false);
-        showSearchDialog(view);
+        view = inflater.inflate(R.layout.search_dialog, container, false);
+        showSearchDialog();
         return view;
     }
 
     /**
      * intialize isdcode provider
+     *
      * @param context class context
      */
-    public synchronized static void initialize(Context context) {
-        ISDCodeProvider.initialize(context);
+    public synchronized static void initialize(Context context,String locale) {
+        ISDCodeProvider.initialize(context, locale);
     }
 
     /**
@@ -68,10 +75,9 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     /**
      * show country dialog
      *
-     * @param view view
      */
-    private void showSearchDialog(View view) {
-        List<Country> countries = ISDCodeProvider.getIsdCodeProvider().getCountries();
+    private void showSearchDialog() {
+        List<Country> countries = ISDCodeProvider.getIsdCodeProvider().getCountriesCodeList();
         RecyclerView recycleView = view.findViewById(R.id.recycler_view);
         recycleView.setLayoutManager(new LinearLayoutManager(getContext(), LinearLayoutManager.VERTICAL, false));
         recycleView.setHasFixedSize(true);
@@ -112,6 +118,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
 
     }
 
+
     /**
      * @param countryCode user selected countryCode
      */
@@ -144,6 +151,8 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         }
 
     }
+
+
 
 
     /**

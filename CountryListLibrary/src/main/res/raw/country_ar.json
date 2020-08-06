@@ -1,0 +1,4786 @@
+[
+  {
+    "full_name_english": "Iceland",
+    "full_name_locale": "آيسلندا",
+    "id": "IS",
+    "three_letter_abbreviation": "ISL",
+    "two_letter_abbreviation": "IS"
+  },
+  {
+    "full_name_english": "Azerbaijan",
+    "full_name_locale": "أذربيجان",
+    "id": "AZ",
+    "three_letter_abbreviation": "AZE",
+    "two_letter_abbreviation": "AZ"
+  },
+  {
+    "full_name_english": "Armenia",
+    "full_name_locale": "أرمينيا",
+    "id": "AM",
+    "three_letter_abbreviation": "ARM",
+    "two_letter_abbreviation": "AM"
+  },
+  {
+    "full_name_english": "Aruba",
+    "full_name_locale": "أروبا",
+    "id": "AW",
+    "three_letter_abbreviation": "ABW",
+    "two_letter_abbreviation": "AW"
+  },
+  {
+    "full_name_english": "Australia",
+    "full_name_locale": "أستراليا",
+    "id": "AU",
+    "available_regions": [
+      {
+        "code": "ACT",
+        "id": "569",
+        "name": " إقليم العاصمة الأسترالية"
+      },
+      {
+        "code": "NT",
+        "id": "576",
+        "name": " الإقليم الشمالي"
+      },
+      {
+        "code": "TAS",
+        "id": "574",
+        "name": " تسمانيا"
+      },
+      {
+        "code": "SA",
+        "id": "573",
+        "name": " جنوب استراليا"
+      },
+      {
+        "code": "VIC",
+        "id": "571",
+        "name": " فيكتوريا"
+      },
+      {
+        "code": "QLD",
+        "id": "572",
+        "name": " كوينزلاند"
+      },
+      {
+        "code": "WA",
+        "id": "575",
+        "name": "استراليا الغربية"
+      },
+      {
+        "code": "NSW",
+        "id": "570",
+        "name": "نيوساوث ويلز"
+      }
+    ],
+    "three_letter_abbreviation": "AUS",
+    "two_letter_abbreviation": "AU"
+  },
+  {
+    "full_name_english": "Albania",
+    "full_name_locale": "ألبانيا",
+    "id": "AL",
+    "three_letter_abbreviation": "ALB",
+    "two_letter_abbreviation": "AL"
+  },
+  {
+    "full_name_english": "Germany",
+    "full_name_locale": "ألمانيا",
+    "id": "DE",
+    "available_regions": [
+      {
+        "code": "BAW",
+        "id": "80",
+        "name": "بادن فورتمبيرغ"
+      },
+      {
+        "code": "BAY",
+        "id": "81",
+        "name": "بافاريا"
+      },
+      {
+        "code": "BRG",
+        "id": "83",
+        "name": "براندنبورغ"
+      },
+      {
+        "code": "BER",
+        "id": "82",
+        "name": "برلين"
+      },
+      {
+        "code": "BRE",
+        "id": "84",
+        "name": "بريمن"
+      },
+      {
+        "code": "THE",
+        "id": "94",
+        "name": "تورينغن"
+      },
+      {
+        "code": "RHE",
+        "id": "89",
+        "name": "راينلند-بالاتينات"
+      },
+      {
+        "code": "SAR",
+        "id": "90",
+        "name": "سارلاند"
+      },
+      {
+        "code": "SAS",
+        "id": "91",
+        "name": "ساكسونيا"
+      },
+      {
+        "code": "SAC",
+        "id": "92",
+        "name": "ساكسونيا-أنهالت"
+      },
+      {
+        "code": "NDS",
+        "id": "79",
+        "name": "سكسونيا السفلى"
+      },
+      {
+        "code": "SCN",
+        "id": "93",
+        "name": "شلسفيغ-هولشتاين"
+      },
+      {
+        "code": "NRW",
+        "id": "88",
+        "name": "شمال الراين-وستفاليا"
+      },
+      {
+        "code": "MEC",
+        "id": "87",
+        "name": "مكلنبورغ-فوربومرن"
+      },
+      {
+        "code": "HAM",
+        "id": "85",
+        "name": "هامبورغ"
+      },
+      {
+        "code": "HES",
+        "id": "86",
+        "name": "هسن"
+      }
+    ],
+    "three_letter_abbreviation": "DEU",
+    "two_letter_abbreviation": "DE"
+  },
+  {
+    "full_name_english": "Antarctica",
+    "full_name_locale": "أنتاركتيكا",
+    "id": "AQ",
+    "three_letter_abbreviation": "ATA",
+    "two_letter_abbreviation": "AQ"
+  },
+  {
+    "full_name_english": "Antigua \u0026 Barbuda",
+    "full_name_locale": "أنتيغوا وبربودا",
+    "id": "AG",
+    "three_letter_abbreviation": "ATG",
+    "two_letter_abbreviation": "AG"
+  },
+  {
+    "full_name_english": "Andorra",
+    "full_name_locale": "أندورا",
+    "id": "AD",
+    "three_letter_abbreviation": "AND",
+    "two_letter_abbreviation": "AD"
+  },
+  {
+    "full_name_english": "Angola",
+    "full_name_locale": "أنغولا",
+    "id": "AO",
+    "three_letter_abbreviation": "AGO",
+    "two_letter_abbreviation": "AO"
+  },
+  {
+    "full_name_english": "Anguilla",
+    "full_name_locale": "أنغويلا",
+    "id": "AI",
+    "three_letter_abbreviation": "AIA",
+    "two_letter_abbreviation": "AI"
+  },
+  {
+    "full_name_english": "Uruguay",
+    "full_name_locale": "أورغواي",
+    "id": "UY",
+    "three_letter_abbreviation": "URY",
+    "two_letter_abbreviation": "UY"
+  },
+  {
+    "full_name_english": "Uzbekistan",
+    "full_name_locale": "أوزبكستان",
+    "id": "UZ",
+    "three_letter_abbreviation": "UZB",
+    "two_letter_abbreviation": "UZ"
+  },
+  {
+    "full_name_english": "Uganda",
+    "full_name_locale": "أوغندا",
+    "id": "UG",
+    "three_letter_abbreviation": "UGA",
+    "two_letter_abbreviation": "UG"
+  },
+  {
+    "full_name_english": "Ukraine",
+    "full_name_locale": "أوكرانيا",
+    "id": "UA",
+    "three_letter_abbreviation": "UKR",
+    "two_letter_abbreviation": "UA"
+  },
+  {
+    "full_name_english": "Ireland",
+    "full_name_locale": "أيرلندا",
+    "id": "IE",
+    "three_letter_abbreviation": "IRL",
+    "two_letter_abbreviation": "IE"
+  },
+  {
+    "full_name_english": "Ethiopia",
+    "full_name_locale": "إثيوبيا",
+    "id": "ET",
+    "three_letter_abbreviation": "ETH",
+    "two_letter_abbreviation": "ET"
+  },
+  {
+    "full_name_english": "Eritrea",
+    "full_name_locale": "إريتريا",
+    "id": "ER",
+    "three_letter_abbreviation": "ERI",
+    "two_letter_abbreviation": "ER"
+  },
+  {
+    "full_name_english": "Spain",
+    "full_name_locale": "إسبانيا",
+    "id": "ES",
+    "available_regions": [
+      {
+        "code": "Cadiz",
+        "id": "142",
+        "name": " كاديز"
+      },
+      {
+        "code": "Caceres",
+        "id": "141",
+        "name": " كاسيريس"
+      },
+      {
+        "code": "Asturias",
+        "id": "135",
+        "name": "أستورياس"
+      },
+      {
+        "code": "Avila",
+        "id": "136",
+        "name": "أفيلا"
+      },
+      {
+        "code": "Ourense",
+        "id": "166",
+        "name": "أورينسي"
+      },
+      {
+        "code": "Sevilla",
+        "id": "172",
+        "name": "إشبيلية"
+      },
+      {
+        "code": "Alava",
+        "id": "131",
+        "name": "الآبا"
+      },
+      {
+        "code": "Albacete",
+        "id": "132",
+        "name": "الباسيتي"
+      },
+      {
+        "code": "Almeria",
+        "id": "134",
+        "name": "الميريا"
+      },
+      {
+        "code": "Alicante",
+        "id": "133",
+        "name": "اليكانتي"
+      },
+      {
+        "code": "Barcelona",
+        "id": "139",
+        "name": "برشلونة"
+      },
+      {
+        "code": "Burgos",
+        "id": "140",
+        "name": "برغش"
+      },
+      {
+        "code": "Badajoz",
+        "id": "137",
+        "name": "بطليوس"
+      },
+      {
+        "code": "Valladolid",
+        "id": "178",
+        "name": "بلد الوليد"
+      },
+      {
+        "code": "Palencia",
+        "id": "167",
+        "name": "بلنسية"
+      },
+      {
+        "code": "Pontevedra",
+        "id": "168",
+        "name": "بونتيفيدرا"
+      },
+      {
+        "code": "Teruel",
+        "id": "175",
+        "name": "تيروال"
+      },
+      {
+        "code": "Girona",
+        "id": "149",
+        "name": "جرندة"
+      },
+      {
+        "code": "Baleares",
+        "id": "138",
+        "name": "جزر البليار"
+      },
+      {
+        "code": "Jaen",
+        "id": "155",
+        "name": "خاين"
+      },
+      {
+        "code": "Zamora",
+        "id": "180",
+        "name": "زامورا"
+      },
+      {
+        "code": "Salamanca",
+        "id": "169",
+        "name": "سالامانكا"
+      },
+      {
+        "code": "Santa Cruz de Tenerife",
+        "id": "170",
+        "name": "سانتا كروث دي تينيريفه"
+      },
+      {
+        "code": "Ceuta",
+        "id": "145",
+        "name": "سبتة"
+      },
+      {
+        "code": "Zaragoza",
+        "id": "181",
+        "name": "سرقسطة"
+      },
+      {
+        "code": "Soria",
+        "id": "173",
+        "name": "سوريا"
+      },
+      {
+        "code": "Ciudad Real",
+        "id": "146",
+        "name": "سيوداد ريال"
+      },
+      {
+        "code": "Segovia",
+        "id": "171",
+        "name": "شقوبية"
+      },
+      {
+        "code": "Tarragona",
+        "id": "174",
+        "name": "طراغونة"
+      },
+      {
+        "code": "Toledo",
+        "id": "176",
+        "name": "طليلطة"
+      },
+      {
+        "code": "Granada",
+        "id": "150",
+        "name": "غرناطة"
+      },
+      {
+        "code": "Guadalajara",
+        "id": "151",
+        "name": "غوادالاخارا"
+      },
+      {
+        "code": "Guipuzcoa",
+        "id": "152",
+        "name": "غيبوزكوا"
+      },
+      {
+        "code": "Valencia",
+        "id": "177",
+        "name": "فالنسيا"
+      },
+      {
+        "code": "Vizcaya",
+        "id": "179",
+        "name": "فيزكايا"
+      },
+      {
+        "code": "Cordoba",
+        "id": "147",
+        "name": "قرطبة"
+      },
+      {
+        "code": "Castellon",
+        "id": "144",
+        "name": "كاستيون"
+      },
+      {
+        "code": "Cantabria",
+        "id": "143",
+        "name": "كانتابريا"
+      },
+      {
+        "code": "Cuenca",
+        "id": "148",
+        "name": "كوينكا"
+      },
+      {
+        "code": "A Coruсa",
+        "id": "130",
+        "name": "لا كورونيا"
+      },
+      {
+        "code": "Lleida",
+        "id": "159",
+        "name": "لاردة"
+      },
+      {
+        "code": "La Rioja",
+        "id": "156",
+        "name": "لاريوخا"
+      },
+      {
+        "code": "Las Palmas",
+        "id": "157",
+        "name": "لاس بالماس"
+      },
+      {
+        "code": "Lugo",
+        "id": "160",
+        "name": "لوغو"
+      },
+      {
+        "code": "Leon",
+        "id": "158",
+        "name": "ليون"
+      },
+      {
+        "code": "Madrid",
+        "id": "161",
+        "name": "مدريد"
+      },
+      {
+        "code": "Malaga",
+        "id": "162",
+        "name": "ملقا"
+      },
+      {
+        "code": "Melilla",
+        "id": "163",
+        "name": "مليلية"
+      },
+      {
+        "code": "Murcia",
+        "id": "164",
+        "name": "مورسيا"
+      },
+      {
+        "code": "Navarra",
+        "id": "165",
+        "name": "نافارا"
+      },
+      {
+        "code": "Huesca",
+        "id": "154",
+        "name": "هويسكا"
+      },
+      {
+        "code": "Huelva",
+        "id": "153",
+        "name": "هويلفا"
+      }
+    ],
+    "three_letter_abbreviation": "ESP",
+    "two_letter_abbreviation": "ES"
+  },
+  {
+    "full_name_english": "Estonia",
+    "full_name_locale": "إستونيا",
+    "id": "EE",
+    "available_regions": [
+      {
+        "code": "EE-44",
+        "id": "342",
+        "name": "مديرية إيدا فيرو"
+      },
+      {
+        "code": "EE-67",
+        "id": "348",
+        "name": "مديرية بارنو"
+      },
+      {
+        "code": "EE-65",
+        "id": "347",
+        "name": "مديرية بولفا"
+      },
+      {
+        "code": "EE-78",
+        "id": "351",
+        "name": "مديرية تارتو"
+      },
+      {
+        "code": "EE-70",
+        "id": "349",
+        "name": "مديرية رابلا"
+      },
+      {
+        "code": "EE-74",
+        "id": "350",
+        "name": "مديرية ساره"
+      },
+      {
+        "code": "EE-82",
+        "id": "352",
+        "name": "مديرية فالغا"
+      },
+      {
+        "code": "EE-86",
+        "id": "354",
+        "name": "مديرية فورو"
+      },
+      {
+        "code": "EE-84",
+        "id": "353",
+        "name": "مديرية فيلياندي"
+      },
+      {
+        "code": "EE-57",
+        "id": "345",
+        "name": "مديرية لانه"
+      },
+      {
+        "code": "EE-59",
+        "id": "346",
+        "name": "مديرية لانه فيرو"
+      },
+      {
+        "code": "EE-37",
+        "id": "340",
+        "name": "مديرية هاريو"
+      },
+      {
+        "code": "EE-39",
+        "id": "341",
+        "name": "مديرية هيوما"
+      },
+      {
+        "code": "EE-49",
+        "id": "343",
+        "name": "مديرية يوغفا"
+      },
+      {
+        "code": "EE-51",
+        "id": "344",
+        "name": "مقاطعة يارفا"
+      }
+    ],
+    "three_letter_abbreviation": "EST",
+    "two_letter_abbreviation": "EE"
+  },
+  {
+    "full_name_english": "Israel",
+    "full_name_locale": "إسرائيل",
+    "id": "IL",
+    "three_letter_abbreviation": "ISR",
+    "two_letter_abbreviation": "IL"
+  },
+  {
+    "full_name_english": "Eswatini",
+    "full_name_locale": "إسواتيني",
+    "id": "SZ",
+    "three_letter_abbreviation": "SWZ",
+    "two_letter_abbreviation": "SZ"
+  },
+  {
+    "full_name_english": "Indonesia",
+    "full_name_locale": "إندونيسيا",
+    "id": "ID",
+    "three_letter_abbreviation": "IDN",
+    "two_letter_abbreviation": "ID"
+  },
+  {
+    "full_name_english": "Iran",
+    "full_name_locale": "إيران",
+    "id": "IR",
+    "three_letter_abbreviation": "IRN",
+    "two_letter_abbreviation": "IR"
+  },
+  {
+    "full_name_english": "Italy",
+    "full_name_locale": "إيطاليا",
+    "id": "IT",
+    "three_letter_abbreviation": "ITA",
+    "two_letter_abbreviation": "IT"
+  },
+  {
+    "full_name_english": "Palestinian Territories",
+    "full_name_locale": "الأراضي الفلسطينية",
+    "id": "PS",
+    "three_letter_abbreviation": "PSE",
+    "two_letter_abbreviation": "PS"
+  },
+  {
+    "full_name_english": "Argentina",
+    "full_name_locale": "الأرجنتين",
+    "id": "AR",
+    "three_letter_abbreviation": "ARG",
+    "two_letter_abbreviation": "AR"
+  },
+  {
+    "full_name_english": "Jordan",
+    "full_name_locale": "الأردن",
+    "id": "JO",
+    "three_letter_abbreviation": "JOR",
+    "two_letter_abbreviation": "JO"
+  },
+  {
+    "full_name_english": "French Southern Territories",
+    "full_name_locale": "الأقاليم الجنوبية الفرنسية",
+    "id": "TF",
+    "three_letter_abbreviation": "ATF",
+    "two_letter_abbreviation": "TF"
+  },
+  {
+    "full_name_english": "British Indian Ocean Territory",
+    "full_name_locale": "الإقليم البريطاني في المحيط الهندي",
+    "id": "IO",
+    "three_letter_abbreviation": "IOT",
+    "two_letter_abbreviation": "IO"
+  },
+  {
+    "full_name_english": "Ecuador",
+    "full_name_locale": "الإكوادور",
+    "id": "EC",
+    "three_letter_abbreviation": "ECU",
+    "two_letter_abbreviation": "EC"
+  },
+  {
+    "full_name_english": "United Arab Emirates",
+    "full_name_locale": "الإمارات العربية المتحدة",
+    "id": "AE",
+    "available_regions": [
+      {
+        "code": "ABD",
+        "id": "609",
+        "name": "أبوظبي"
+      },
+      {
+        "code": "UAQ",
+        "id": "615",
+        "name": "أم القيوين"
+      },
+      {
+        "code": "SHJ",
+        "id": "614",
+        "name": "الشارقة"
+      },
+      {
+        "code": "FUJ",
+        "id": "612",
+        "name": "الفجيرة"
+      },
+      {
+        "code": "DXB",
+        "id": "611",
+        "name": "دبي"
+      },
+      {
+        "code": "RAK",
+        "id": "613",
+        "name": "رأس الخيمة"
+      },
+      {
+        "code": "AJM",
+        "id": "610",
+        "name": "عجمان"
+      }
+    ],
+    "three_letter_abbreviation": "ARE",
+    "two_letter_abbreviation": "AE"
+  },
+  {
+    "full_name_english": "Bahrain",
+    "full_name_locale": "البحرين",
+    "id": "BH",
+    "three_letter_abbreviation": "BHR",
+    "two_letter_abbreviation": "BH"
+  },
+  {
+    "full_name_english": "Brazil",
+    "full_name_locale": "البرازيل",
+    "id": "BR",
+    "available_regions": [
+      {
+        "code": "AC",
+        "id": "485",
+        "name": "أكري"
+      },
+      {
+        "code": "AL",
+        "id": "486",
+        "name": "ألاجواس"
+      },
+      {
+        "code": "AP",
+        "id": "487",
+        "name": "أمابا"
+      },
+      {
+        "code": "ES",
+        "id": "491",
+        "name": "اسبيريتو سانتو"
+      },
+      {
+        "code": "AM",
+        "id": "488",
+        "name": "الامزون"
+      },
+      {
+        "code": "DF",
+        "id": "511",
+        "name": "القطاع الفدرالي البرازيلي"
+      },
+      {
+        "code": "PA",
+        "id": "497",
+        "name": "بارا"
+      },
+      {
+        "code": "PR",
+        "id": "499",
+        "name": "بارانا"
+      },
+      {
+        "code": "PB",
+        "id": "498",
+        "name": "بارايبا"
+      },
+      {
+        "code": "BA",
+        "id": "489",
+        "name": "باهيا"
+      },
+      {
+        "code": "PI",
+        "id": "501",
+        "name": "بياوي"
+      },
+      {
+        "code": "PE",
+        "id": "500",
+        "name": "بيرنامبوكو"
+      },
+      {
+        "code": "TO",
+        "id": "510",
+        "name": "توكانتينس"
+      },
+      {
+        "code": "RR",
+        "id": "506",
+        "name": "رورايما"
+      },
+      {
+        "code": "RO",
+        "id": "505",
+        "name": "روندونيا"
+      },
+      {
+        "code": "RJ",
+        "id": "502",
+        "name": "ريو دي جانيرو"
+      },
+      {
+        "code": "RS",
+        "id": "504",
+        "name": "ريو غراندي دو سول"
+      },
+      {
+        "code": "RN",
+        "id": "503",
+        "name": "ريو غراندي دو نورتي"
+      },
+      {
+        "code": "SC",
+        "id": "507",
+        "name": "سانتا كاتارينا"
+      },
+      {
+        "code": "CE",
+        "id": "490",
+        "name": "سيارا"
+      },
+      {
+        "code": "SE",
+        "id": "509",
+        "name": "سيرجيبي"
+      },
+      {
+        "code": "GO",
+        "id": "492",
+        "name": "غوياس"
+      },
+      {
+        "code": "MT",
+        "id": "494",
+        "name": "ماتو غروسو"
+      },
+      {
+        "code": "MS",
+        "id": "495",
+        "name": "ماتو غروسو دو سول"
+      },
+      {
+        "code": "MA",
+        "id": "493",
+        "name": "مارانهاو"
+      },
+      {
+        "code": "MG",
+        "id": "496",
+        "name": "ميناس جيرايس"
+      },
+      {
+        "code": "SP",
+        "id": "508",
+        "name": "ولاية ساو باولو"
+      }
+    ],
+    "three_letter_abbreviation": "BRA",
+    "two_letter_abbreviation": "BR"
+  },
+  {
+    "full_name_english": "Portugal",
+    "full_name_locale": "البرتغال",
+    "id": "PT",
+    "three_letter_abbreviation": "PRT",
+    "two_letter_abbreviation": "PT"
+  },
+  {
+    "full_name_english": "Bosnia \u0026 Herzegovina",
+    "full_name_locale": "البوسنة والهرسك",
+    "id": "BA",
+    "three_letter_abbreviation": "BIH",
+    "two_letter_abbreviation": "BA"
+  },
+  {
+    "full_name_english": "Czechia",
+    "full_name_locale": "التشيك",
+    "id": "CZ",
+    "three_letter_abbreviation": "CZE",
+    "two_letter_abbreviation": "CZ"
+  },
+  {
+    "full_name_english": "Montenegro",
+    "full_name_locale": "الجبل الأسود",
+    "id": "ME",
+    "three_letter_abbreviation": "MNE",
+    "two_letter_abbreviation": "ME"
+  },
+  {
+    "full_name_english": "Algeria",
+    "full_name_locale": "الجزائر",
+    "id": "DZ",
+    "three_letter_abbreviation": "DZA",
+    "two_letter_abbreviation": "DZ"
+  },
+  {
+    "full_name_english": "Denmark",
+    "full_name_locale": "الدانمرك",
+    "id": "DK",
+    "three_letter_abbreviation": "DNK",
+    "two_letter_abbreviation": "DK"
+  },
+  {
+    "full_name_english": "Cape Verde",
+    "full_name_locale": "الرأس الأخضر",
+    "id": "CV",
+    "three_letter_abbreviation": "CPV",
+    "two_letter_abbreviation": "CV"
+  },
+  {
+    "full_name_english": "El Salvador",
+    "full_name_locale": "السلفادور",
+    "id": "SV",
+    "three_letter_abbreviation": "SLV",
+    "two_letter_abbreviation": "SV"
+  },
+  {
+    "full_name_english": "Senegal",
+    "full_name_locale": "السنغال",
+    "id": "SN",
+    "three_letter_abbreviation": "SEN",
+    "two_letter_abbreviation": "SN"
+  },
+  {
+    "full_name_english": "Sudan",
+    "full_name_locale": "السودان",
+    "id": "SD",
+    "three_letter_abbreviation": "SDN",
+    "two_letter_abbreviation": "SD"
+  },
+  {
+    "full_name_english": "Sweden",
+    "full_name_locale": "السويد",
+    "id": "SE",
+    "three_letter_abbreviation": "SWE",
+    "two_letter_abbreviation": "SE"
+  },
+  {
+    "full_name_english": "Western Sahara",
+    "full_name_locale": "الصحراء الغربية",
+    "id": "EH",
+    "three_letter_abbreviation": "ESH",
+    "two_letter_abbreviation": "EH"
+  },
+  {
+    "full_name_english": "Somalia",
+    "full_name_locale": "الصومال",
+    "id": "SO",
+    "three_letter_abbreviation": "SOM",
+    "two_letter_abbreviation": "SO"
+  },
+  {
+    "full_name_english": "China",
+    "full_name_locale": "الصين",
+    "id": "CN",
+    "three_letter_abbreviation": "CHN",
+    "two_letter_abbreviation": "CN"
+  },
+  {
+    "full_name_english": "Iraq",
+    "full_name_locale": "العراق",
+    "id": "IQ",
+    "three_letter_abbreviation": "IRQ",
+    "two_letter_abbreviation": "IQ"
+  },
+  {
+    "full_name_english": "Gabon",
+    "full_name_locale": "الغابون",
+    "id": "GA",
+    "three_letter_abbreviation": "GAB",
+    "two_letter_abbreviation": "GA"
+  },
+  {
+    "full_name_english": "Vatican City",
+    "full_name_locale": "الفاتيكان",
+    "id": "VA",
+    "three_letter_abbreviation": "VAT",
+    "two_letter_abbreviation": "VA"
+  },
+  {
+    "full_name_english": "Philippines",
+    "full_name_locale": "الفلبين",
+    "id": "PH",
+    "three_letter_abbreviation": "PHL",
+    "two_letter_abbreviation": "PH"
+  },
+  {
+    "full_name_english": "Cameroon",
+    "full_name_locale": "الكاميرون",
+    "id": "CM",
+    "three_letter_abbreviation": "CMR",
+    "two_letter_abbreviation": "CM"
+  },
+  {
+    "full_name_english": "Kuwait",
+    "full_name_locale": "الكويت",
+    "id": "KW",
+    "three_letter_abbreviation": "KWT",
+    "two_letter_abbreviation": "KW"
+  },
+  {
+    "full_name_english": "Morocco",
+    "full_name_locale": "المغرب",
+    "id": "MA",
+    "three_letter_abbreviation": "MAR",
+    "two_letter_abbreviation": "MA"
+  },
+  {
+    "full_name_english": "Mexico",
+    "full_name_locale": "المكسيك",
+    "id": "MX",
+    "available_regions": [
+      {
+        "code": "AGU",
+        "id": "577",
+        "name": "أغواس كالينتس"
+      },
+      {
+        "code": "OAX",
+        "id": "596",
+        "name": "أواهاكا"
+      },
+      {
+        "code": "BCN",
+        "id": "578",
+        "name": "باخا كاليفورنيا "
+      },
+      {
+        "code": "BCS",
+        "id": "579",
+        "name": "باخا كاليفورنيا سور"
+      },
+      {
+        "code": "PUE",
+        "id": "597",
+        "name": "بويبلا"
+      },
+      {
+        "code": "TAB",
+        "id": "603",
+        "name": "تاباسكو"
+      },
+      {
+        "code": "TAM",
+        "id": "604",
+        "name": "تاماوليباس"
+      },
+      {
+        "code": "CHP",
+        "id": "581",
+        "name": "تشياباس"
+      },
+      {
+        "code": "CHH",
+        "id": "582",
+        "name": "تشيواوا"
+      },
+      {
+        "code": "TLA",
+        "id": "605",
+        "name": "تلاكسكالا"
+      },
+      {
+        "code": "JAL",
+        "id": "591",
+        "name": "خاليسكو"
+      },
+      {
+        "code": "DUR",
+        "id": "586",
+        "name": "دورانغو"
+      },
+      {
+        "code": "ZAC",
+        "id": "608",
+        "name": "زاكاتيكاس"
+      },
+      {
+        "code": "SLP",
+        "id": "600",
+        "name": "سان لويس بوتوسي"
+      },
+      {
+        "code": "SON",
+        "id": "602",
+        "name": "سونورا"
+      },
+      {
+        "code": "SIN",
+        "id": "601",
+        "name": "سينالوا"
+      },
+      {
+        "code": "GUA",
+        "id": "588",
+        "name": "غواناخواتو"
+      },
+      {
+        "code": "GRO",
+        "id": "589",
+        "name": "غيريرو"
+      },
+      {
+        "code": "VER",
+        "id": "606",
+        "name": "فيراكروز"
+      },
+      {
+        "code": "CAM",
+        "id": "580",
+        "name": "كامبيتشي"
+      },
+      {
+        "code": "COA",
+        "id": "584",
+        "name": "كواويلا"
+      },
+      {
+        "code": "COL",
+        "id": "585",
+        "name": "كوليما"
+      },
+      {
+        "code": "QUE",
+        "id": "598",
+        "name": "كيريتارو"
+      },
+      {
+        "code": "ROO",
+        "id": "599",
+        "name": "كينتانا رو"
+      },
+      {
+        "code": "MEX",
+        "id": "587",
+        "name": "مدينة مكسيكو"
+      },
+      {
+        "code": "CMX",
+        "id": "583",
+        "name": "مقاطعة مكسيكو"
+      },
+      {
+        "code": "MOR",
+        "id": "593",
+        "name": "موريلوس"
+      },
+      {
+        "code": "MIC",
+        "id": "592",
+        "name": "ميتشواكان"
+      },
+      {
+        "code": "NAY",
+        "id": "594",
+        "name": "ناياريت"
+      },
+      {
+        "code": "NLE",
+        "id": "595",
+        "name": "نويفو ليون"
+      },
+      {
+        "code": "HID",
+        "id": "590",
+        "name": "هيدالغو"
+      },
+      {
+        "code": "YUC",
+        "id": "607",
+        "name": "يوكاتان"
+      }
+    ],
+    "three_letter_abbreviation": "MEX",
+    "two_letter_abbreviation": "MX"
+  },
+  {
+    "full_name_english": "Saudi Arabia",
+    "full_name_locale": "المملكة العربية السعودية",
+    "id": "SA",
+    "three_letter_abbreviation": "SAU",
+    "two_letter_abbreviation": "SA"
+  },
+  {
+    "full_name_english": "United Kingdom",
+    "full_name_locale": "المملكة المتحدة",
+    "id": "GB",
+    "three_letter_abbreviation": "GBR",
+    "two_letter_abbreviation": "GB"
+  },
+  {
+    "full_name_english": "Norway",
+    "full_name_locale": "النرويج",
+    "id": "NO",
+    "three_letter_abbreviation": "NOR",
+    "two_letter_abbreviation": "NO"
+  },
+  {
+    "full_name_english": "Austria",
+    "full_name_locale": "النمسا",
+    "id": "AT",
+    "available_regions": [
+      {
+        "code": "BL",
+        "id": "102",
+        "name": " بورغنلاند"
+      },
+      {
+        "code": "TI",
+        "id": "101",
+        "name": " تيرول"
+      },
+      {
+        "code": "SB",
+        "id": "98",
+        "name": " سالزبورغ"
+      },
+      {
+        "code": "VB",
+        "id": "103",
+        "name": " فورارلبرغ"
+      },
+      {
+        "code": "WI",
+        "id": "95",
+        "name": " فيينا"
+      },
+      {
+        "code": "NO",
+        "id": "96",
+        "name": "النمسا السفلى"
+      },
+      {
+        "code": "OO",
+        "id": "97",
+        "name": "النمسا العليا"
+      },
+      {
+        "code": "ST",
+        "id": "100",
+        "name": "شتايرمارك"
+      },
+      {
+        "code": "KN",
+        "id": "99",
+        "name": "كيرنتن"
+      }
+    ],
+    "three_letter_abbreviation": "AUT",
+    "two_letter_abbreviation": "AT"
+  },
+  {
+    "full_name_english": "Niger",
+    "full_name_locale": "النيجر",
+    "id": "NE",
+    "three_letter_abbreviation": "NER",
+    "two_letter_abbreviation": "NE"
+  },
+  {
+    "full_name_english": "India",
+    "full_name_locale": "الهند",
+    "id": "IN",
+    "available_regions": [
+      {
+        "code": "AP",
+        "id": "534",
+        "name": "أندرا براديش"
+      },
+      {
+        "code": "UT",
+        "id": "567",
+        "name": "أوتارانتشال"
+      },
+      {
+        "code": "OR",
+        "id": "558",
+        "name": "أوديشا"
+      },
+      {
+        "code": "AR",
+        "id": "535",
+        "name": "اروناتشال براديش"
+      },
+      {
+        "code": "AS",
+        "id": "536",
+        "name": "اسام"
+      },
+      {
+        "code": "LD",
+        "id": "551",
+        "name": "اكشادويب"
+      },
+      {
+        "code": "PB",
+        "id": "560",
+        "name": "البنجاب"
+      },
+      {
+        "code": "PY",
+        "id": "559",
+        "name": "بودوتشيري"
+      },
+      {
+        "code": "BR",
+        "id": "537",
+        "name": "بيهار"
+      },
+      {
+        "code": "TN",
+        "id": "563",
+        "name": "تاميل نادو"
+      },
+      {
+        "code": "TR",
+        "id": "565",
+        "name": "تريبورا"
+      },
+      {
+        "code": "CT",
+        "id": "539",
+        "name": "تشهاتيسجاره"
+      },
+      {
+        "code": "TG",
+        "id": "564",
+        "name": "تيلانجانا"
+      },
+      {
+        "code": "JK",
+        "id": "547",
+        "name": "جامو وكشمير"
+      },
+      {
+        "code": "AN",
+        "id": "533",
+        "name": "جزر أندامان ونيكوبار"
+      },
+      {
+        "code": "JH",
+        "id": "548",
+        "name": "جهارخاند"
+      },
+      {
+        "code": "DN",
+        "id": "540",
+        "name": "دادرا وناغار هافيلي"
+      },
+      {
+        "code": "DD",
+        "id": "541",
+        "name": "دامان وديو"
+      },
+      {
+        "code": "DL",
+        "id": "542",
+        "name": "دلهي"
+      },
+      {
+        "code": "RJ",
+        "id": "561",
+        "name": "راجستان"
+      },
+      {
+        "code": "SK",
+        "id": "562",
+        "name": "سيكيم"
+      },
+      {
+        "code": "CH",
+        "id": "538",
+        "name": "شانديغار"
+      },
+      {
+        "code": "GA",
+        "id": "543",
+        "name": "غوا"
+      },
+      {
+        "code": "GJ",
+        "id": "544",
+        "name": "غوجارات"
+      },
+      {
+        "code": "KA",
+        "id": "549",
+        "name": "كارناتاكا"
+      },
+      {
+        "code": "MP",
+        "id": "552",
+        "name": "ماديا براديش"
+      },
+      {
+        "code": "MN",
+        "id": "554",
+        "name": "مانيبور"
+      },
+      {
+        "code": "MH",
+        "id": "553",
+        "name": "ماهاراشترا"
+      },
+      {
+        "code": "MZ",
+        "id": "556",
+        "name": "ميزورام"
+      },
+      {
+        "code": "ML",
+        "id": "555",
+        "name": "ميغالايا"
+      },
+      {
+        "code": "NL",
+        "id": "557",
+        "name": "ناجالاند"
+      },
+      {
+        "code": "HR",
+        "id": "545",
+        "name": "هاريانا"
+      },
+      {
+        "code": "HP",
+        "id": "546",
+        "name": "هيماشال براديش"
+      },
+      {
+        "code": "WB",
+        "id": "568",
+        "name": "ولاية البنغال الغربية"
+      },
+      {
+        "code": "UP",
+        "id": "566",
+        "name": "ولاية اوتار براديش"
+      },
+      {
+        "code": "KL",
+        "id": "550",
+        "name": "ولاية كيرالا"
+      }
+    ],
+    "three_letter_abbreviation": "IND",
+    "two_letter_abbreviation": "IN"
+  },
+  {
+    "full_name_english": "United States",
+    "full_name_locale": "الولايات المتحدة",
+    "id": "US",
+    "available_regions": [
+      {
+        "code": "AR",
+        "id": "5",
+        "name": "أركنساس"
+      },
+      {
+        "code": "AZ",
+        "id": "4",
+        "name": "أريزونا"
+      },
+      {
+        "code": "AL",
+        "id": "1",
+        "name": "ألاباما"
+      },
+      {
+        "code": "AK",
+        "id": "2",
+        "name": "ألاسكا"
+      },
+      {
+        "code": "OR",
+        "id": "49",
+        "name": "أوريجون"
+      },
+      {
+        "code": "OK",
+        "id": "48",
+        "name": "أوكلاهوما"
+      },
+      {
+        "code": "OH",
+        "id": "47",
+        "name": "أوهايو"
+      },
+      {
+        "code": "ID",
+        "id": "22",
+        "name": "أيداهو"
+      },
+      {
+        "code": "IA",
+        "id": "25",
+        "name": "أيوا"
+      },
+      {
+        "code": "IL",
+        "id": "23",
+        "name": "إلينوي"
+      },
+      {
+        "code": "IN",
+        "id": "24",
+        "name": "إنديانا"
+      },
+      {
+        "code": "AE",
+        "id": "6",
+        "name": "القوات المسلحة أفريقيا"
+      },
+      {
+        "code": "AE",
+        "id": "9",
+        "name": "القوات المسلحة أوروبا"
+      },
+      {
+        "code": "AA",
+        "id": "7",
+        "name": "القوات المسلحة الأمريكتين"
+      },
+      {
+        "code": "AE",
+        "id": "10",
+        "name": "القوات المسلحة الشرق الأوسط"
+      },
+      {
+        "code": "AP",
+        "id": "11",
+        "name": "القوات المسلحة المحيط الهادئ"
+      },
+      {
+        "code": "AE",
+        "id": "8",
+        "name": "القوات المسلحة كندا"
+      },
+      {
+        "code": "PW",
+        "id": "50",
+        "name": "بالاو"
+      },
+      {
+        "code": "PA",
+        "id": "51",
+        "name": "بنسيلفانيا"
+      },
+      {
+        "code": "PR",
+        "id": "52",
+        "name": "بورتوريكو"
+      },
+      {
+        "code": "TX",
+        "id": "57",
+        "name": "تكساس"
+      },
+      {
+        "code": "TN",
+        "id": "56",
+        "name": "تينيسي"
+      },
+      {
+        "code": "VI",
+        "id": "60",
+        "name": "جزر العذراء الأمريكية"
+      },
+      {
+        "code": "MH",
+        "id": "30",
+        "name": "جزر مارشال"
+      },
+      {
+        "code": "MP",
+        "id": "46",
+        "name": "جزر ماريانا الشمالية"
+      },
+      {
+        "code": "GA",
+        "id": "19",
+        "name": "جورجيا"
+      },
+      {
+        "code": "SD",
+        "id": "55",
+        "name": "داكوتا الجنوبية"
+      },
+      {
+        "code": "ND",
+        "id": "45",
+        "name": "داكوتا الشمالية"
+      },
+      {
+        "code": "DE",
+        "id": "15",
+        "name": "ديلاوير"
+      },
+      {
+        "code": "RI",
+        "id": "53",
+        "name": "رود ايلاند"
+      },
+      {
+        "code": "AS",
+        "id": "3",
+        "name": "ساموا الأمريكية"
+      },
+      {
+        "code": "GU",
+        "id": "20",
+        "name": "غوام"
+      },
+      {
+        "code": "VA",
+        "id": "61",
+        "name": "فرجينيا"
+      },
+      {
+        "code": "WV",
+        "id": "63",
+        "name": "فرجينيا الغربية"
+      },
+      {
+        "code": "FL",
+        "id": "18",
+        "name": "فلوريدا"
+      },
+      {
+        "code": "VT",
+        "id": "59",
+        "name": "فيرمونت"
+      },
+      {
+        "code": "SC",
+        "id": "54",
+        "name": "كارولينا الجنوبية"
+      },
+      {
+        "code": "NC",
+        "id": "44",
+        "name": "كارولينا الشمالية"
+      },
+      {
+        "code": "CA",
+        "id": "12",
+        "name": "كاليفورنيا"
+      },
+      {
+        "code": "KS",
+        "id": "26",
+        "name": "كانساس"
+      },
+      {
+        "code": "KY",
+        "id": "27",
+        "name": "كنتاكي"
+      },
+      {
+        "code": "CO",
+        "id": "13",
+        "name": "كولورادو"
+      },
+      {
+        "code": "CT",
+        "id": "14",
+        "name": "كونيتيكت"
+      },
+      {
+        "code": "LA",
+        "id": "28",
+        "name": "لويزيانا"
+      },
+      {
+        "code": "MD",
+        "id": "31",
+        "name": "ماريلاند"
+      },
+      {
+        "code": "MA",
+        "id": "32",
+        "name": "ماساتشوستس"
+      },
+      {
+        "code": "ME",
+        "id": "29",
+        "name": "ماين"
+      },
+      {
+        "code": "MS",
+        "id": "35",
+        "name": "مسيسيبي"
+      },
+      {
+        "code": "DC",
+        "id": "16",
+        "name": "مقاطعة كولومبيا"
+      },
+      {
+        "code": "MT",
+        "id": "37",
+        "name": "مونتانا"
+      },
+      {
+        "code": "MO",
+        "id": "36",
+        "name": "ميزوري"
+      },
+      {
+        "code": "MI",
+        "id": "33",
+        "name": "ميشيغان"
+      },
+      {
+        "code": "MN",
+        "id": "34",
+        "name": "مينيسوتا"
+      },
+      {
+        "code": "NE",
+        "id": "38",
+        "name": "نبراسكا"
+      },
+      {
+        "code": "NV",
+        "id": "39",
+        "name": "نيفادا"
+      },
+      {
+        "code": "NJ",
+        "id": "41",
+        "name": "نيو جيرسي"
+      },
+      {
+        "code": "NM",
+        "id": "42",
+        "name": "نيو ميكسيكو"
+      },
+      {
+        "code": "NH",
+        "id": "40",
+        "name": "نيوهامشير"
+      },
+      {
+        "code": "NY",
+        "id": "43",
+        "name": "نيويورك "
+      },
+      {
+        "code": "HI",
+        "id": "21",
+        "name": "هاواي"
+      },
+      {
+        "code": "WA",
+        "id": "62",
+        "name": "واشنطن"
+      },
+      {
+        "code": "WY",
+        "id": "65",
+        "name": "وايومنغ"
+      },
+      {
+        "code": "FM",
+        "id": "17",
+        "name": "ولايات ميكرونيسيا المتحدة"
+      },
+      {
+        "code": "WI",
+        "id": "64",
+        "name": "ويسكونسن"
+      },
+      {
+        "code": "UT",
+        "id": "58",
+        "name": "يوتاه"
+      }
+    ],
+    "three_letter_abbreviation": "USA",
+    "two_letter_abbreviation": "US"
+  },
+  {
+    "full_name_english": "Japan",
+    "full_name_locale": "اليابان",
+    "id": "JP",
+    "three_letter_abbreviation": "JPN",
+    "two_letter_abbreviation": "JP"
+  },
+  {
+    "full_name_english": "Yemen",
+    "full_name_locale": "اليمن",
+    "id": "YE",
+    "three_letter_abbreviation": "YEM",
+    "two_letter_abbreviation": "YE"
+  },
+  {
+    "full_name_english": "Greece",
+    "full_name_locale": "اليونان",
+    "id": "GR",
+    "three_letter_abbreviation": "GRC",
+    "two_letter_abbreviation": "GR"
+  },
+  {
+    "full_name_english": "Papua New Guinea",
+    "full_name_locale": "بابوا غينيا الجديدة",
+    "id": "PG",
+    "three_letter_abbreviation": "PNG",
+    "two_letter_abbreviation": "PG"
+  },
+  {
+    "full_name_english": "Paraguay",
+    "full_name_locale": "باراغواي",
+    "id": "PY",
+    "three_letter_abbreviation": "PRY",
+    "two_letter_abbreviation": "PY"
+  },
+  {
+    "full_name_english": "Pakistan",
+    "full_name_locale": "باكستان",
+    "id": "PK",
+    "three_letter_abbreviation": "PAK",
+    "two_letter_abbreviation": "PK"
+  },
+  {
+    "full_name_english": "Palau",
+    "full_name_locale": "بالاو",
+    "id": "PW",
+    "three_letter_abbreviation": "PLW",
+    "two_letter_abbreviation": "PW"
+  },
+  {
+    "full_name_english": "Barbados",
+    "full_name_locale": "بربادوس",
+    "id": "BB",
+    "three_letter_abbreviation": "BRB",
+    "two_letter_abbreviation": "BB"
+  },
+  {
+    "full_name_english": "Bermuda",
+    "full_name_locale": "برمودا",
+    "id": "BM",
+    "three_letter_abbreviation": "BMU",
+    "two_letter_abbreviation": "BM"
+  },
+  {
+    "full_name_english": "Brunei",
+    "full_name_locale": "بروناي",
+    "id": "BN",
+    "three_letter_abbreviation": "BRN",
+    "two_letter_abbreviation": "BN"
+  },
+  {
+    "full_name_english": "Belgium",
+    "full_name_locale": "بلجيكا",
+    "id": "BE",
+    "three_letter_abbreviation": "BEL",
+    "two_letter_abbreviation": "BE"
+  },
+  {
+    "full_name_english": "Bulgaria",
+    "full_name_locale": "بلغاريا",
+    "id": "BG",
+    "three_letter_abbreviation": "BGR",
+    "two_letter_abbreviation": "BG"
+  },
+  {
+    "full_name_english": "Belize",
+    "full_name_locale": "بليز",
+    "id": "BZ",
+    "three_letter_abbreviation": "BLZ",
+    "two_letter_abbreviation": "BZ"
+  },
+  {
+    "full_name_english": "Bangladesh",
+    "full_name_locale": "بنغلاديش",
+    "id": "BD",
+    "three_letter_abbreviation": "BGD",
+    "two_letter_abbreviation": "BD"
+  },
+  {
+    "full_name_english": "Panama",
+    "full_name_locale": "بنما",
+    "id": "PA",
+    "three_letter_abbreviation": "PAN",
+    "two_letter_abbreviation": "PA"
+  },
+  {
+    "full_name_english": "Benin",
+    "full_name_locale": "بنين",
+    "id": "BJ",
+    "three_letter_abbreviation": "BEN",
+    "two_letter_abbreviation": "BJ"
+  },
+  {
+    "full_name_english": "Bhutan",
+    "full_name_locale": "بوتان",
+    "id": "BT",
+    "three_letter_abbreviation": "BTN",
+    "two_letter_abbreviation": "BT"
+  },
+  {
+    "full_name_english": "Botswana",
+    "full_name_locale": "بوتسوانا",
+    "id": "BW",
+    "three_letter_abbreviation": "BWA",
+    "two_letter_abbreviation": "BW"
+  },
+  {
+    "full_name_english": "Burkina Faso",
+    "full_name_locale": "بوركينا فاسو",
+    "id": "BF",
+    "three_letter_abbreviation": "BFA",
+    "two_letter_abbreviation": "BF"
+  },
+  {
+    "full_name_english": "Burundi",
+    "full_name_locale": "بوروندي",
+    "id": "BI",
+    "three_letter_abbreviation": "BDI",
+    "two_letter_abbreviation": "BI"
+  },
+  {
+    "full_name_english": "Poland",
+    "full_name_locale": "بولندا",
+    "id": "PL",
+    "three_letter_abbreviation": "POL",
+    "two_letter_abbreviation": "PL"
+  },
+  {
+    "full_name_english": "Bolivia",
+    "full_name_locale": "بوليفيا",
+    "id": "BO",
+    "three_letter_abbreviation": "BOL",
+    "two_letter_abbreviation": "BO"
+  },
+  {
+    "full_name_english": "French Polynesia",
+    "full_name_locale": "بولينيزيا الفرنسية",
+    "id": "PF",
+    "three_letter_abbreviation": "PYF",
+    "two_letter_abbreviation": "PF"
+  },
+  {
+    "full_name_english": "Peru",
+    "full_name_locale": "بيرو",
+    "id": "PE",
+    "three_letter_abbreviation": "PER",
+    "two_letter_abbreviation": "PE"
+  },
+  {
+    "full_name_english": "Belarus",
+    "full_name_locale": "بيلاروس",
+    "id": "BY",
+    "three_letter_abbreviation": "BLR",
+    "two_letter_abbreviation": "BY"
+  },
+  {
+    "full_name_english": "Thailand",
+    "full_name_locale": "تايلاند",
+    "id": "TH",
+    "three_letter_abbreviation": "THA",
+    "two_letter_abbreviation": "TH"
+  },
+  {
+    "full_name_english": "Taiwan",
+    "full_name_locale": "تايوان",
+    "id": "TW",
+    "three_letter_abbreviation": "TWN",
+    "two_letter_abbreviation": "TW"
+  },
+  {
+    "full_name_english": "Turkmenistan",
+    "full_name_locale": "تركمانستان",
+    "id": "TM",
+    "three_letter_abbreviation": "TKM",
+    "two_letter_abbreviation": "TM"
+  },
+  {
+    "full_name_english": "Turkey",
+    "full_name_locale": "تركيا",
+    "id": "TR",
+    "three_letter_abbreviation": "TUR",
+    "two_letter_abbreviation": "TR"
+  },
+  {
+    "full_name_english": "Trinidad \u0026 Tobago",
+    "full_name_locale": "ترينيداد وتوباغو",
+    "id": "TT",
+    "three_letter_abbreviation": "TTO",
+    "two_letter_abbreviation": "TT"
+  },
+  {
+    "full_name_english": "Chad",
+    "full_name_locale": "تشاد",
+    "id": "TD",
+    "three_letter_abbreviation": "TCD",
+    "two_letter_abbreviation": "TD"
+  },
+  {
+    "full_name_english": "Chile",
+    "full_name_locale": "تشيلي",
+    "id": "CL",
+    "three_letter_abbreviation": "CHL",
+    "two_letter_abbreviation": "CL"
+  },
+  {
+    "full_name_english": "Tanzania",
+    "full_name_locale": "تنزانيا",
+    "id": "TZ",
+    "three_letter_abbreviation": "TZA",
+    "two_letter_abbreviation": "TZ"
+  },
+  {
+    "full_name_english": "Togo",
+    "full_name_locale": "توغو",
+    "id": "TG",
+    "three_letter_abbreviation": "TGO",
+    "two_letter_abbreviation": "TG"
+  },
+  {
+    "full_name_english": "Tuvalu",
+    "full_name_locale": "توفالو",
+    "id": "TV",
+    "three_letter_abbreviation": "TUV",
+    "two_letter_abbreviation": "TV"
+  },
+  {
+    "full_name_english": "Tokelau",
+    "full_name_locale": "توكيلو",
+    "id": "TK",
+    "three_letter_abbreviation": "TKL",
+    "two_letter_abbreviation": "TK"
+  },
+  {
+    "full_name_english": "Tunisia",
+    "full_name_locale": "تونس",
+    "id": "TN",
+    "three_letter_abbreviation": "TUN",
+    "two_letter_abbreviation": "TN"
+  },
+  {
+    "full_name_english": "Tonga",
+    "full_name_locale": "تونغا",
+    "id": "TO",
+    "three_letter_abbreviation": "TON",
+    "two_letter_abbreviation": "TO"
+  },
+  {
+    "full_name_english": "Timor-Leste",
+    "full_name_locale": "تيمور - ليشتي",
+    "id": "TL",
+    "three_letter_abbreviation": "TLS",
+    "two_letter_abbreviation": "TL"
+  },
+  {
+    "full_name_english": "Jamaica",
+    "full_name_locale": "جامايكا",
+    "id": "JM",
+    "three_letter_abbreviation": "JAM",
+    "two_letter_abbreviation": "JM"
+  },
+  {
+    "full_name_english": "Gibraltar",
+    "full_name_locale": "جبل طارق",
+    "id": "GI",
+    "three_letter_abbreviation": "GIB",
+    "two_letter_abbreviation": "GI"
+  },
+  {
+    "full_name_english": "Åland Islands",
+    "full_name_locale": "جزر آلاند",
+    "id": "AX",
+    "three_letter_abbreviation": "ALA",
+    "two_letter_abbreviation": "AX"
+  },
+  {
+    "full_name_english": "Bahamas",
+    "full_name_locale": "جزر البهاما",
+    "id": "BS",
+    "three_letter_abbreviation": "BHS",
+    "two_letter_abbreviation": "BS"
+  },
+  {
+    "full_name_english": "Comoros",
+    "full_name_locale": "جزر القمر",
+    "id": "KM",
+    "three_letter_abbreviation": "COM",
+    "two_letter_abbreviation": "KM"
+  },
+  {
+    "full_name_english": "Martinique",
+    "full_name_locale": "جزر المارتينيك",
+    "id": "MQ",
+    "three_letter_abbreviation": "MTQ",
+    "two_letter_abbreviation": "MQ"
+  },
+  {
+    "full_name_english": "Maldives",
+    "full_name_locale": "جزر المالديف",
+    "id": "MV",
+    "three_letter_abbreviation": "MDV",
+    "two_letter_abbreviation": "MV"
+  },
+  {
+    "full_name_english": "U.S. Outlying Islands",
+    "full_name_locale": "جزر الولايات المتحدة النائية",
+    "id": "UM",
+    "three_letter_abbreviation": "UMI",
+    "two_letter_abbreviation": "UM"
+  },
+  {
+    "full_name_english": "Pitcairn Islands",
+    "full_name_locale": "جزر بيتكيرن",
+    "id": "PN",
+    "three_letter_abbreviation": "PCN",
+    "two_letter_abbreviation": "PN"
+  },
+  {
+    "full_name_english": "Turks \u0026 Caicos Islands",
+    "full_name_locale": "جزر توركس وكايكوس",
+    "id": "TC",
+    "three_letter_abbreviation": "TCA",
+    "two_letter_abbreviation": "TC"
+  },
+  {
+    "full_name_english": "Solomon Islands",
+    "full_name_locale": "جزر سليمان",
+    "id": "SB",
+    "three_letter_abbreviation": "SLB",
+    "two_letter_abbreviation": "SB"
+  },
+  {
+    "full_name_english": "Faroe Islands",
+    "full_name_locale": "جزر فارو",
+    "id": "FO",
+    "three_letter_abbreviation": "FRO",
+    "two_letter_abbreviation": "FO"
+  },
+  {
+    "full_name_english": "Falkland Islands",
+    "full_name_locale": "جزر فوكلاند",
+    "id": "FK",
+    "three_letter_abbreviation": "FLK",
+    "two_letter_abbreviation": "FK"
+  },
+  {
+    "full_name_english": "British Virgin Islands",
+    "full_name_locale": "جزر فيرجن البريطانية",
+    "id": "VG",
+    "three_letter_abbreviation": "VGB",
+    "two_letter_abbreviation": "VG"
+  },
+  {
+    "full_name_english": "U.S. Virgin Islands",
+    "full_name_locale": "جزر فيرجن التابعة للولايات المتحدة",
+    "id": "VI",
+    "three_letter_abbreviation": "VIR",
+    "two_letter_abbreviation": "VI"
+  },
+  {
+    "full_name_english": "Cayman Islands",
+    "full_name_locale": "جزر كايمان",
+    "id": "KY",
+    "three_letter_abbreviation": "CYM",
+    "two_letter_abbreviation": "KY"
+  },
+  {
+    "full_name_english": "Cook Islands",
+    "full_name_locale": "جزر كوك",
+    "id": "CK",
+    "three_letter_abbreviation": "COK",
+    "two_letter_abbreviation": "CK"
+  },
+  {
+    "full_name_english": "Cocos (Keeling) Islands",
+    "full_name_locale": "جزر كوكوس (كيلينغ)",
+    "id": "CC",
+    "three_letter_abbreviation": "CCK",
+    "two_letter_abbreviation": "CC"
+  },
+  {
+    "full_name_english": "Marshall Islands",
+    "full_name_locale": "جزر مارشال",
+    "id": "MH",
+    "three_letter_abbreviation": "MHL",
+    "two_letter_abbreviation": "MH"
+  },
+  {
+    "full_name_english": "Northern Mariana Islands",
+    "full_name_locale": "جزر ماريانا الشمالية",
+    "id": "MP",
+    "three_letter_abbreviation": "MNP",
+    "two_letter_abbreviation": "MP"
+  },
+  {
+    "full_name_english": "Wallis \u0026 Futuna",
+    "full_name_locale": "جزر والس وفوتونا",
+    "id": "WF",
+    "three_letter_abbreviation": "WLF",
+    "two_letter_abbreviation": "WF"
+  },
+  {
+    "full_name_english": "Bouvet Island",
+    "full_name_locale": "جزيرة بوفيه",
+    "id": "BV",
+    "three_letter_abbreviation": "BVT",
+    "two_letter_abbreviation": "BV"
+  },
+  {
+    "full_name_english": "Christmas Island",
+    "full_name_locale": "جزيرة كريسماس",
+    "id": "CX",
+    "three_letter_abbreviation": "CXR",
+    "two_letter_abbreviation": "CX"
+  },
+  {
+    "full_name_english": "Isle of Man",
+    "full_name_locale": "جزيرة مان",
+    "id": "IM",
+    "three_letter_abbreviation": "IMN",
+    "two_letter_abbreviation": "IM"
+  },
+  {
+    "full_name_english": "Norfolk Island",
+    "full_name_locale": "جزيرة نورفولك",
+    "id": "NF",
+    "three_letter_abbreviation": "NFK",
+    "two_letter_abbreviation": "NF"
+  },
+  {
+    "full_name_english": "Heard \u0026 McDonald Islands",
+    "full_name_locale": "جزيرة هيرد وجزر ماكدونالد",
+    "id": "HM",
+    "three_letter_abbreviation": "HMD",
+    "two_letter_abbreviation": "HM"
+  },
+  {
+    "full_name_english": "Dominican Republic",
+    "full_name_locale": "جمهورية الدومينيكان",
+    "id": "DO",
+    "three_letter_abbreviation": "DOM",
+    "two_letter_abbreviation": "DO"
+  },
+  {
+    "full_name_english": "South Africa",
+    "full_name_locale": "جنوب أفريقيا",
+    "id": "ZA",
+    "three_letter_abbreviation": "ZAF",
+    "two_letter_abbreviation": "ZA"
+  },
+  {
+    "full_name_english": "Georgia",
+    "full_name_locale": "جورجيا",
+    "id": "GE",
+    "three_letter_abbreviation": "GEO",
+    "two_letter_abbreviation": "GE"
+  },
+  {
+    "full_name_english": "South Georgia \u0026 South Sandwich Islands",
+    "full_name_locale": "جورجيا الجنوبية وجزر ساندويتش الجنوبية",
+    "id": "GS",
+    "three_letter_abbreviation": "SGS",
+    "two_letter_abbreviation": "GS"
+  },
+  {
+    "full_name_english": "Djibouti",
+    "full_name_locale": "جيبوتي",
+    "id": "DJ",
+    "three_letter_abbreviation": "DJI",
+    "two_letter_abbreviation": "DJ"
+  },
+  {
+    "full_name_english": "Jersey",
+    "full_name_locale": "جيرسي",
+    "id": "JE",
+    "three_letter_abbreviation": "JEY",
+    "two_letter_abbreviation": "JE"
+  },
+  {
+    "full_name_english": "Dominica",
+    "full_name_locale": "دومينيكا",
+    "id": "DM",
+    "three_letter_abbreviation": "DMA",
+    "two_letter_abbreviation": "DM"
+  },
+  {
+    "full_name_english": "Rwanda",
+    "full_name_locale": "رواندا",
+    "id": "RW",
+    "three_letter_abbreviation": "RWA",
+    "two_letter_abbreviation": "RW"
+  },
+  {
+    "full_name_english": "Russia",
+    "full_name_locale": "روسيا",
+    "id": "RU",
+    "three_letter_abbreviation": "RUS",
+    "two_letter_abbreviation": "RU"
+  },
+  {
+    "full_name_english": "Romania",
+    "full_name_locale": "رومانيا",
+    "id": "RO",
+    "available_regions": [
+      {
+        "code": "AR",
+        "id": "279",
+        "name": "أراد"
+      },
+      {
+        "code": "AG",
+        "id": "280",
+        "name": "أرغيش"
+      },
+      {
+        "code": "AB",
+        "id": "278",
+        "name": "ألبا"
+      },
+      {
+        "code": "OT",
+        "id": "308",
+        "name": "أولت"
+      },
+      {
+        "code": "IF",
+        "id": "303",
+        "name": "إلفوف"
+      },
+      {
+        "code": "IL",
+        "id": "301",
+        "name": "إيالوميتا"
+      },
+      {
+        "code": "BC",
+        "id": "281",
+        "name": "باكاو"
+      },
+      {
+        "code": "BV",
+        "id": "285",
+        "name": "براشوف"
+      },
+      {
+        "code": "BR",
+        "id": "286",
+        "name": "برايلا"
+      },
+      {
+        "code": "BT",
+        "id": "284",
+        "name": "بوتوشاني"
+      },
+      {
+        "code": "B",
+        "id": "287",
+        "name": "بوخارست"
+      },
+      {
+        "code": "BZ",
+        "id": "288",
+        "name": "بوزاو"
+      },
+      {
+        "code": "BN",
+        "id": "283",
+        "name": "بيستريتسا-ناساوود"
+      },
+      {
+        "code": "BH",
+        "id": "282",
+        "name": "بيهور"
+      },
+      {
+        "code": "TL",
+        "id": "316",
+        "name": "تولسيا "
+      },
+      {
+        "code": "TR",
+        "id": "314",
+        "name": "تيلورمان"
+      },
+      {
+        "code": "TM",
+        "id": "315",
+        "name": "تيميش"
+      },
+      {
+        "code": "GR",
+        "id": "297",
+        "name": "جورجيو"
+      },
+      {
+        "code": "DB",
+        "id": "294",
+        "name": "دامبوفيتا"
+      },
+      {
+        "code": "DJ",
+        "id": "295",
+        "name": "دولج"
+      },
+      {
+        "code": "SM",
+        "id": "310",
+        "name": "ساتو ماري "
+      },
+      {
+        "code": "SJ",
+        "id": "311",
+        "name": "سالاج"
+      },
+      {
+        "code": "SV",
+        "id": "313",
+        "name": "سوتشيافا"
+      },
+      {
+        "code": "SB",
+        "id": "312",
+        "name": "سيبيو"
+      },
+      {
+        "code": "GL",
+        "id": "296",
+        "name": "غالاتس"
+      },
+      {
+        "code": "GJ",
+        "id": "298",
+        "name": "غورج"
+      },
+      {
+        "code": "VS",
+        "id": "317",
+        "name": "فاسلوي"
+      },
+      {
+        "code": "VL",
+        "id": "318",
+        "name": "فالسيا"
+      },
+      {
+        "code": "VN",
+        "id": "319",
+        "name": "فرنتشيا"
+      },
+      {
+        "code": "CS",
+        "id": "289",
+        "name": "كاراس-سيفيرين"
+      },
+      {
+        "code": "CL",
+        "id": "290",
+        "name": "كالاراسي"
+      },
+      {
+        "code": "CJ",
+        "id": "291",
+        "name": "كلوج"
+      },
+      {
+        "code": "CV",
+        "id": "293",
+        "name": "كوفاسنا"
+      },
+      {
+        "code": "CT",
+        "id": "292",
+        "name": "كونستانتسا"
+      },
+      {
+        "code": "MM",
+        "id": "304",
+        "name": "ماراموريش"
+      },
+      {
+        "code": "MS",
+        "id": "306",
+        "name": "موريش"
+      },
+      {
+        "code": "MH",
+        "id": "305",
+        "name": "ميهيدينتي "
+      },
+      {
+        "code": "NT",
+        "id": "307",
+        "name": "نيامتس"
+      },
+      {
+        "code": "HR",
+        "id": "299",
+        "name": "هارغيتا"
+      },
+      {
+        "code": "HD",
+        "id": "300",
+        "name": "هونيدوارا"
+      },
+      {
+        "code": "IS",
+        "id": "302",
+        "name": "ياش"
+      },
+      {
+        "code": "PH",
+        "id": "309",
+        "name": "يراهوفا"
+      }
+    ],
+    "three_letter_abbreviation": "ROU",
+    "two_letter_abbreviation": "RO"
+  },
+  {
+    "full_name_english": "Réunion",
+    "full_name_locale": "روينيون",
+    "id": "RE",
+    "three_letter_abbreviation": "REU",
+    "two_letter_abbreviation": "RE"
+  },
+  {
+    "full_name_english": "Zambia",
+    "full_name_locale": "زامبيا",
+    "id": "ZM",
+    "three_letter_abbreviation": "ZMB",
+    "two_letter_abbreviation": "ZM"
+  },
+  {
+    "full_name_english": "Zimbabwe",
+    "full_name_locale": "زيمبابوي",
+    "id": "ZW",
+    "three_letter_abbreviation": "ZWE",
+    "two_letter_abbreviation": "ZW"
+  },
+  {
+    "full_name_english": "Côte d’Ivoire",
+    "full_name_locale": "ساحل العاج",
+    "id": "CI",
+    "three_letter_abbreviation": "CIV",
+    "two_letter_abbreviation": "CI"
+  },
+  {
+    "full_name_english": "Samoa",
+    "full_name_locale": "ساموا",
+    "id": "WS",
+    "three_letter_abbreviation": "WSM",
+    "two_letter_abbreviation": "WS"
+  },
+  {
+    "full_name_english": "American Samoa",
+    "full_name_locale": "ساموا الأمريكية",
+    "id": "AS",
+    "three_letter_abbreviation": "ASM",
+    "two_letter_abbreviation": "AS"
+  },
+  {
+    "full_name_english": "St. Barthélemy",
+    "full_name_locale": "سان بارتليمي",
+    "id": "BL",
+    "three_letter_abbreviation": "BLM",
+    "two_letter_abbreviation": "BL"
+  },
+  {
+    "full_name_english": "St. Pierre \u0026 Miquelon",
+    "full_name_locale": "سان بيير ومكويلون",
+    "id": "PM",
+    "three_letter_abbreviation": "SPM",
+    "two_letter_abbreviation": "PM"
+  },
+  {
+    "full_name_english": "St. Martin",
+    "full_name_locale": "سان مارتن",
+    "id": "MF",
+    "three_letter_abbreviation": "MAF",
+    "two_letter_abbreviation": "MF"
+  },
+  {
+    "full_name_english": "San Marino",
+    "full_name_locale": "سان مارينو",
+    "id": "SM",
+    "three_letter_abbreviation": "SMR",
+    "two_letter_abbreviation": "SM"
+  },
+  {
+    "full_name_english": "St. Vincent \u0026 Grenadines",
+    "full_name_locale": "سانت فنسنت وجزر غرينادين",
+    "id": "VC",
+    "three_letter_abbreviation": "VCT",
+    "two_letter_abbreviation": "VC"
+  },
+  {
+    "full_name_english": "St. Kitts \u0026 Nevis",
+    "full_name_locale": "سانت كيتس ونيفيس",
+    "id": "KN",
+    "three_letter_abbreviation": "KNA",
+    "two_letter_abbreviation": "KN"
+  },
+  {
+    "full_name_english": "St. Lucia",
+    "full_name_locale": "سانت لوسيا",
+    "id": "LC",
+    "three_letter_abbreviation": "LCA",
+    "two_letter_abbreviation": "LC"
+  },
+  {
+    "full_name_english": "St. Helena",
+    "full_name_locale": "سانت هيلينا",
+    "id": "SH",
+    "three_letter_abbreviation": "SHN",
+    "two_letter_abbreviation": "SH"
+  },
+  {
+    "full_name_english": "São Tomé \u0026 Príncipe",
+    "full_name_locale": "ساو تومي وبرينسيبي",
+    "id": "ST",
+    "three_letter_abbreviation": "STP",
+    "two_letter_abbreviation": "ST"
+  },
+  {
+    "full_name_english": "Sri Lanka",
+    "full_name_locale": "سريلانكا",
+    "id": "LK",
+    "three_letter_abbreviation": "LKA",
+    "two_letter_abbreviation": "LK"
+  },
+  {
+    "full_name_english": "Svalbard \u0026 Jan Mayen",
+    "full_name_locale": "سفالبارد وجان ماين",
+    "id": "SJ",
+    "three_letter_abbreviation": "SJM",
+    "two_letter_abbreviation": "SJ"
+  },
+  {
+    "full_name_english": "Slovakia",
+    "full_name_locale": "سلوفاكيا",
+    "id": "SK",
+    "three_letter_abbreviation": "SVK",
+    "two_letter_abbreviation": "SK"
+  },
+  {
+    "full_name_english": "Slovenia",
+    "full_name_locale": "سلوفينيا",
+    "id": "SI",
+    "three_letter_abbreviation": "SVN",
+    "two_letter_abbreviation": "SI"
+  },
+  {
+    "full_name_english": "Singapore",
+    "full_name_locale": "سنغافورة",
+    "id": "SG",
+    "three_letter_abbreviation": "SGP",
+    "two_letter_abbreviation": "SG"
+  },
+  {
+    "full_name_english": "Suriname",
+    "full_name_locale": "سورينام",
+    "id": "SR",
+    "three_letter_abbreviation": "SUR",
+    "two_letter_abbreviation": "SR"
+  },
+  {
+    "full_name_english": "Switzerland",
+    "full_name_locale": "سويسرا",
+    "id": "CH",
+    "available_regions": [
+      {
+        "code": "ZG",
+        "id": "128",
+        "name": " تسوغ"
+      },
+      {
+        "code": "AR",
+        "id": "106",
+        "name": "أبينزيل أوسيرهودن"
+      },
+      {
+        "code": "AI",
+        "id": "105",
+        "name": "أبينزيل إينرهودن"
+      },
+      {
+        "code": "AG",
+        "id": "104",
+        "name": "أرجاو"
+      },
+      {
+        "code": "OW",
+        "id": "118",
+        "name": "أوبفالدن"
+      },
+      {
+        "code": "UR",
+        "id": "125",
+        "name": "أوري"
+      },
+      {
+        "code": "BE",
+        "id": "107",
+        "name": "برن"
+      },
+      {
+        "code": "TG",
+        "id": "123",
+        "name": "تورغاو"
+      },
+      {
+        "code": "TI",
+        "id": "124",
+        "name": "تيسينو"
+      },
+      {
+        "code": "GE",
+        "id": "111",
+        "name": "جنيف"
+      },
+      {
+        "code": "JU",
+        "id": "114",
+        "name": "جورا"
+      },
+      {
+        "code": "BL",
+        "id": "108",
+        "name": "ريف بازل"
+      },
+      {
+        "code": "ZH",
+        "id": "129",
+        "name": "زيورخ"
+      },
+      {
+        "code": "SG",
+        "id": "119",
+        "name": "سانت غالن"
+      },
+      {
+        "code": "SO",
+        "id": "121",
+        "name": "سولوتورن"
+      },
+      {
+        "code": "SH",
+        "id": "120",
+        "name": "شافهوزن"
+      },
+      {
+        "code": "SZ",
+        "id": "122",
+        "name": "شفيتس"
+      },
+      {
+        "code": "GR",
+        "id": "113",
+        "name": "غراوبوندن"
+      },
+      {
+        "code": "GL",
+        "id": "112",
+        "name": "غلاروس"
+      },
+      {
+        "code": "VS",
+        "id": "127",
+        "name": "فاليز"
+      },
+      {
+        "code": "FR",
+        "id": "110",
+        "name": "فريبورغ"
+      },
+      {
+        "code": "VD",
+        "id": "126",
+        "name": "فود"
+      },
+      {
+        "code": "LU",
+        "id": "115",
+        "name": "لوتسيرن"
+      },
+      {
+        "code": "BS",
+        "id": "109",
+        "name": "مدينة بازل"
+      },
+      {
+        "code": "NE",
+        "id": "116",
+        "name": "نوينبورغ"
+      },
+      {
+        "code": "NW",
+        "id": "117",
+        "name": "نيدفالدن"
+      }
+    ],
+    "three_letter_abbreviation": "CHE",
+    "two_letter_abbreviation": "CH"
+  },
+  {
+    "full_name_english": "Sierra Leone",
+    "full_name_locale": "سيراليون",
+    "id": "SL",
+    "three_letter_abbreviation": "SLE",
+    "two_letter_abbreviation": "SL"
+  },
+  {
+    "full_name_english": "Seychelles",
+    "full_name_locale": "سيشل",
+    "id": "SC",
+    "three_letter_abbreviation": "SYC",
+    "two_letter_abbreviation": "SC"
+  },
+  {
+    "full_name_english": "Serbia",
+    "full_name_locale": "صربيا",
+    "id": "RS",
+    "three_letter_abbreviation": "SRB",
+    "two_letter_abbreviation": "RS"
+  },
+  {
+    "full_name_english": "Tajikistan",
+    "full_name_locale": "طاجيكستان",
+    "id": "TJ",
+    "three_letter_abbreviation": "TJK",
+    "two_letter_abbreviation": "TJ"
+  },
+  {
+    "full_name_english": "Oman",
+    "full_name_locale": "عُمان",
+    "id": "OM",
+    "three_letter_abbreviation": "OMN",
+    "two_letter_abbreviation": "OM"
+  },
+  {
+    "full_name_english": "Gambia",
+    "full_name_locale": "غامبيا",
+    "id": "GM",
+    "three_letter_abbreviation": "GMB",
+    "two_letter_abbreviation": "GM"
+  },
+  {
+    "full_name_english": "Ghana",
+    "full_name_locale": "غانا",
+    "id": "GH",
+    "three_letter_abbreviation": "GHA",
+    "two_letter_abbreviation": "GH"
+  },
+  {
+    "full_name_english": "Grenada",
+    "full_name_locale": "غرينادا",
+    "id": "GD",
+    "three_letter_abbreviation": "GRD",
+    "two_letter_abbreviation": "GD"
+  },
+  {
+    "full_name_english": "Greenland",
+    "full_name_locale": "غرينلاند",
+    "id": "GL",
+    "three_letter_abbreviation": "GRL",
+    "two_letter_abbreviation": "GL"
+  },
+  {
+    "full_name_english": "Guatemala",
+    "full_name_locale": "غواتيمالا",
+    "id": "GT",
+    "three_letter_abbreviation": "GTM",
+    "two_letter_abbreviation": "GT"
+  },
+  {
+    "full_name_english": "Guadeloupe",
+    "full_name_locale": "غوادلوب",
+    "id": "GP",
+    "three_letter_abbreviation": "GLP",
+    "two_letter_abbreviation": "GP"
+  },
+  {
+    "full_name_english": "Guam",
+    "full_name_locale": "غوام",
+    "id": "GU",
+    "three_letter_abbreviation": "GUM",
+    "two_letter_abbreviation": "GU"
+  },
+  {
+    "full_name_english": "French Guiana",
+    "full_name_locale": "غويانا الفرنسية",
+    "id": "GF",
+    "three_letter_abbreviation": "GUF",
+    "two_letter_abbreviation": "GF"
+  },
+  {
+    "full_name_english": "Guyana",
+    "full_name_locale": "غيانا",
+    "id": "GY",
+    "three_letter_abbreviation": "GUY",
+    "two_letter_abbreviation": "GY"
+  },
+  {
+    "full_name_english": "Guernsey",
+    "full_name_locale": "غيرنزي",
+    "id": "GG",
+    "three_letter_abbreviation": "GGY",
+    "two_letter_abbreviation": "GG"
+  },
+  {
+    "full_name_english": "Guinea",
+    "full_name_locale": "غينيا",
+    "id": "GN",
+    "three_letter_abbreviation": "GIN",
+    "two_letter_abbreviation": "GN"
+  },
+  {
+    "full_name_english": "Equatorial Guinea",
+    "full_name_locale": "غينيا الاستوائية",
+    "id": "GQ",
+    "three_letter_abbreviation": "GNQ",
+    "two_letter_abbreviation": "GQ"
+  },
+  {
+    "full_name_english": "Guinea-Bissau",
+    "full_name_locale": "غينيا بيساو",
+    "id": "GW",
+    "three_letter_abbreviation": "GNB",
+    "two_letter_abbreviation": "GW"
+  },
+  {
+    "full_name_english": "Vanuatu",
+    "full_name_locale": "فانواتو",
+    "id": "VU",
+    "three_letter_abbreviation": "VUT",
+    "two_letter_abbreviation": "VU"
+  },
+  {
+    "full_name_english": "France",
+    "full_name_locale": "فرنسا",
+    "id": "FR",
+    "available_regions": [
+      {
+        "code": "2B",
+        "id": "202",
+        "name": " هوت كورس"
+      },
+      {
+        "code": "37",
+        "id": "219",
+        "name": "آندر إيه لوار"
+      },
+      {
+        "code": "9",
+        "id": "190",
+        "name": "أرييج"
+      },
+      {
+        "code": "12",
+        "id": "193",
+        "name": "أفيرون"
+      },
+      {
+        "code": "4",
+        "id": "185",
+        "name": "ألب دي هوت بروفنس"
+      },
+      {
+        "code": "3",
+        "id": "184",
+        "name": "أليي"
+      },
+      {
+        "code": "36",
+        "id": "218",
+        "name": "أندر"
+      },
+      {
+        "code": "10",
+        "id": "191",
+        "name": "أوب"
+      },
+      {
+        "code": "27",
+        "id": "209",
+        "name": "أور"
+      },
+      {
+        "code": "28",
+        "id": "210",
+        "name": "أور ولوار"
+      },
+      {
+        "code": "61",
+        "id": "243",
+        "name": "أورن"
+      },
+      {
+        "code": "2",
+        "id": "183",
+        "name": "أيسن"
+      },
+      {
+        "code": "1",
+        "id": "182",
+        "name": "أين"
+      },
+      {
+        "code": "38",
+        "id": "220",
+        "name": "إزار"
+      },
+      {
+        "code": "91",
+        "id": "273",
+        "name": "إيسون"
+      },
+      {
+        "code": "35",
+        "id": "217",
+        "name": "إيل وفيلان"
+      },
+      {
+        "code": "6",
+        "id": "187",
+        "name": "الآلب البحرية"
+      },
+      {
+        "code": "7",
+        "id": "188",
+        "name": "الأرديش"
+      },
+      {
+        "code": "8",
+        "id": "189",
+        "name": "الأردين"
+      },
+      {
+        "code": "78",
+        "id": "260",
+        "name": "الإيفلين"
+      },
+      {
+        "code": "64",
+        "id": "246",
+        "name": "البرانيس الأطلسية"
+      },
+      {
+        "code": "66",
+        "id": "248",
+        "name": "البرانيس الشرقية"
+      },
+      {
+        "code": "65",
+        "id": "247",
+        "name": "البرانيس العليا"
+      },
+      {
+        "code": "67",
+        "id": "249",
+        "name": "الراين الأسفل"
+      },
+      {
+        "code": "68",
+        "id": "250",
+        "name": "الراين الأعلى"
+      },
+      {
+        "code": "76",
+        "id": "258",
+        "name": "السان البحرية"
+      },
+      {
+        "code": "77",
+        "id": "259",
+        "name": "السان ومارن"
+      },
+      {
+        "code": "88",
+        "id": "270",
+        "name": "الفوج"
+      },
+      {
+        "code": "51",
+        "id": "233",
+        "name": "المارن"
+      },
+      {
+        "code": "52",
+        "id": "234",
+        "name": "المارن العليا"
+      },
+      {
+        "code": "50",
+        "id": "232",
+        "name": "المانش"
+      },
+      {
+        "code": "11",
+        "id": "192",
+        "name": "اود"
+      },
+      {
+        "code": "62",
+        "id": "244",
+        "name": "با دو كاليه"
+      },
+      {
+        "code": "75",
+        "id": "257",
+        "name": "باريس"
+      },
+      {
+        "code": "13",
+        "id": "194",
+        "name": "بوش دي رون"
+      },
+      {
+        "code": "63",
+        "id": "245",
+        "name": "بوي دي دوم"
+      },
+      {
+        "code": "81",
+        "id": "263",
+        "name": "تارن"
+      },
+      {
+        "code": "82",
+        "id": "264",
+        "name": "تارن وغارون"
+      },
+      {
+        "code": "90",
+        "id": "272",
+        "name": "تريتوار دو بلفور"
+      },
+      {
+        "code": "39",
+        "id": "221",
+        "name": "جورا"
+      },
+      {
+        "code": "33",
+        "id": "215",
+        "name": "جيروند"
+      },
+      {
+        "code": "26",
+        "id": "208",
+        "name": "دروم"
+      },
+      {
+        "code": "79",
+        "id": "261",
+        "name": "دو سيفر"
+      },
+      {
+        "code": "25",
+        "id": "207",
+        "name": "دوبس"
+      },
+      {
+        "code": "24",
+        "id": "206",
+        "name": "دوردونيي"
+      },
+      {
+        "code": "69",
+        "id": "251",
+        "name": "رون"
+      },
+      {
+        "code": "72",
+        "id": "254",
+        "name": "سارت"
+      },
+      {
+        "code": "73",
+        "id": "255",
+        "name": "سافوا"
+      },
+      {
+        "code": "74",
+        "id": "256",
+        "name": "سافوا العليا"
+      },
+      {
+        "code": "80",
+        "id": "262",
+        "name": "سوم"
+      },
+      {
+        "code": "70",
+        "id": "252",
+        "name": "سون العليا"
+      },
+      {
+        "code": "71",
+        "id": "253",
+        "name": "سون ولوار"
+      },
+      {
+        "code": "93",
+        "id": "275",
+        "name": "سين سان دوني"
+      },
+      {
+        "code": "16",
+        "id": "197",
+        "name": "شارنت"
+      },
+      {
+        "code": "17",
+        "id": "198",
+        "name": "شارنت ماريتيم"
+      },
+      {
+        "code": "18",
+        "id": "199",
+        "name": "شيير"
+      },
+      {
+        "code": "30",
+        "id": "212",
+        "name": "غارد"
+      },
+      {
+        "code": "31",
+        "id": "213",
+        "name": "غارون العليا"
+      },
+      {
+        "code": "32",
+        "id": "214",
+        "name": "غيرز"
+      },
+      {
+        "code": "83",
+        "id": "265",
+        "name": "فار"
+      },
+      {
+        "code": "95",
+        "id": "277",
+        "name": "فال دواز"
+      },
+      {
+        "code": "94",
+        "id": "276",
+        "name": "فال دي مارن"
+      },
+      {
+        "code": "84",
+        "id": "266",
+        "name": "فانكلوز"
+      },
+      {
+        "code": "29",
+        "id": "211",
+        "name": "فنستير"
+      },
+      {
+        "code": "85",
+        "id": "267",
+        "name": "فونديه"
+      },
+      {
+        "code": "86",
+        "id": "268",
+        "name": "فيين"
+      },
+      {
+        "code": "87",
+        "id": "269",
+        "name": "فيين العليا"
+      },
+      {
+        "code": "14",
+        "id": "195",
+        "name": "كالفادو"
+      },
+      {
+        "code": "15",
+        "id": "196",
+        "name": "كانتال"
+      },
+      {
+        "code": "23",
+        "id": "205",
+        "name": "كروز"
+      },
+      {
+        "code": "22",
+        "id": "204",
+        "name": "كوت درمور"
+      },
+      {
+        "code": "21",
+        "id": "203",
+        "name": "كوت دور"
+      },
+      {
+        "code": "2A",
+        "id": "201",
+        "name": "كورس دي سود"
+      },
+      {
+        "code": "19",
+        "id": "200",
+        "name": "كوريز"
+      },
+      {
+        "code": "40",
+        "id": "222",
+        "name": "لاند"
+      },
+      {
+        "code": "47",
+        "id": "229",
+        "name": "لو وغارون"
+      },
+      {
+        "code": "42",
+        "id": "224",
+        "name": "لوار"
+      },
+      {
+        "code": "44",
+        "id": "226",
+        "name": "لوار الأطلسية"
+      },
+      {
+        "code": "43",
+        "id": "225",
+        "name": "لوار العليا"
+      },
+      {
+        "code": "41",
+        "id": "223",
+        "name": "لوار وشير"
+      },
+      {
+        "code": "45",
+        "id": "227",
+        "name": "لواريت"
+      },
+      {
+        "code": "46",
+        "id": "228",
+        "name": "لوت"
+      },
+      {
+        "code": "48",
+        "id": "230",
+        "name": "لوزار"
+      },
+      {
+        "code": "53",
+        "id": "235",
+        "name": "ماين"
+      },
+      {
+        "code": "49",
+        "id": "231",
+        "name": "ماين ولوار"
+      },
+      {
+        "code": "56",
+        "id": "238",
+        "name": "موربيهان"
+      },
+      {
+        "code": "54",
+        "id": "236",
+        "name": "مورت وموزيل"
+      },
+      {
+        "code": "55",
+        "id": "237",
+        "name": "موز"
+      },
+      {
+        "code": "57",
+        "id": "239",
+        "name": "موزيل"
+      },
+      {
+        "code": "59",
+        "id": "241",
+        "name": "نور"
+      },
+      {
+        "code": "58",
+        "id": "240",
+        "name": "نيافر"
+      },
+      {
+        "code": "5",
+        "id": "186",
+        "name": "هوت آلب"
+      },
+      {
+        "code": "92",
+        "id": "274",
+        "name": "هوت دو سين"
+      },
+      {
+        "code": "34",
+        "id": "216",
+        "name": "هيرولت"
+      },
+      {
+        "code": "60",
+        "id": "242",
+        "name": "واز"
+      },
+      {
+        "code": "89",
+        "id": "271",
+        "name": "يون"
+      }
+    ],
+    "three_letter_abbreviation": "FRA",
+    "two_letter_abbreviation": "FR"
+  },
+  {
+    "full_name_english": "Venezuela",
+    "full_name_locale": "فنزويلا",
+    "id": "VE",
+    "three_letter_abbreviation": "VEN",
+    "two_letter_abbreviation": "VE"
+  },
+  {
+    "full_name_english": "Finland",
+    "full_name_locale": "فنلندا",
+    "id": "FI",
+    "available_regions": [
+      {
+        "code": "Uusimaa",
+        "id": "336",
+        "name": " أوسيما"
+      },
+      {
+        "code": "Kainuu",
+        "id": "322",
+        "name": " كاينو"
+      },
+      {
+        "code": "Itä-Uusimaa",
+        "id": "337",
+        "name": "أوسيما الشرقية"
+      },
+      {
+        "code": "Päijät-Häme",
+        "id": "334",
+        "name": "بايات هامي"
+      },
+      {
+        "code": "Pohjanmaa",
+        "id": "327",
+        "name": "بوهيانما"
+      },
+      {
+        "code": "Etelä-Pohjanmaa",
+        "id": "326",
+        "name": "بوهيانما الجنوبية"
+      },
+      {
+        "code": "Pohjois-Pohjanmaa",
+        "id": "321",
+        "name": "بوهيانما الشمالية"
+      },
+      {
+        "code": "Pirkanmaa",
+        "id": "328",
+        "name": "بيركنما"
+      },
+      {
+        "code": "Ahvenanmaa",
+        "id": "339",
+        "name": "جزر أولاند"
+      },
+      {
+        "code": "Satakunta",
+        "id": "329",
+        "name": "ساتا كونتا"
+      },
+      {
+        "code": "Etelä-Savo",
+        "id": "325",
+        "name": "سافو الجنوبية"
+      },
+      {
+        "code": "Pohjois-Savo",
+        "id": "324",
+        "name": "سافو الشمالية"
+      },
+      {
+        "code": "Keski-Suomi",
+        "id": "331",
+        "name": "سومي الوسطى"
+      },
+      {
+        "code": "Varsinais-Suomi",
+        "id": "332",
+        "name": "فارسينايس سوومي"
+      },
+      {
+        "code": "Keski-Pohjanmaa",
+        "id": "330",
+        "name": "فنلندا الوسطى"
+      },
+      {
+        "code": "Etelä-Karjala",
+        "id": "333",
+        "name": "كاريليا الجنوبية"
+      },
+      {
+        "code": "Pohjois-Karjala",
+        "id": "323",
+        "name": "كاريليا الشمالية"
+      },
+      {
+        "code": "Kanta-Häme",
+        "id": "335",
+        "name": "كانتا هامي"
+      },
+      {
+        "code": "Kymenlaakso",
+        "id": "338",
+        "name": "كومنلاكسو"
+      },
+      {
+        "code": "Lappi",
+        "id": "320",
+        "name": "لابي"
+      }
+    ],
+    "three_letter_abbreviation": "FIN",
+    "two_letter_abbreviation": "FI"
+  },
+  {
+    "full_name_english": "Vietnam",
+    "full_name_locale": "فيتنام",
+    "id": "VN",
+    "three_letter_abbreviation": "VNM",
+    "two_letter_abbreviation": "VN"
+  },
+  {
+    "full_name_english": "Fiji",
+    "full_name_locale": "فيجي",
+    "id": "FJ",
+    "three_letter_abbreviation": "FJI",
+    "two_letter_abbreviation": "FJ"
+  },
+  {
+    "full_name_english": "Cyprus",
+    "full_name_locale": "قبرص",
+    "id": "CY",
+    "three_letter_abbreviation": "CYP",
+    "two_letter_abbreviation": "CY"
+  },
+  {
+    "full_name_english": "Qatar",
+    "full_name_locale": "قطر",
+    "id": "QA",
+    "three_letter_abbreviation": "QAT",
+    "two_letter_abbreviation": "QA"
+  },
+  {
+    "full_name_english": "Kyrgyzstan",
+    "full_name_locale": "قيرغيزستان",
+    "id": "KG",
+    "three_letter_abbreviation": "KGZ",
+    "two_letter_abbreviation": "KG"
+  },
+  {
+    "full_name_english": "Kazakhstan",
+    "full_name_locale": "كازاخستان",
+    "id": "KZ",
+    "three_letter_abbreviation": "KAZ",
+    "two_letter_abbreviation": "KZ"
+  },
+  {
+    "full_name_english": "New Caledonia",
+    "full_name_locale": "كاليدونيا الجديدة",
+    "id": "NC",
+    "three_letter_abbreviation": "NCL",
+    "two_letter_abbreviation": "NC"
+  },
+  {
+    "full_name_english": "Croatia",
+    "full_name_locale": "كرواتيا",
+    "id": "HR",
+    "available_regions": [
+      {
+        "code": "HR-21",
+        "id": "532",
+        "name": "مدينة زغرب"
+      },
+      {
+        "code": "HR-14",
+        "id": "525",
+        "name": "مقاطعة أوسييك-بارانيا"
+      },
+      {
+        "code": "HR-18",
+        "id": "529",
+        "name": "مقاطعة إستريا"
+      },
+      {
+        "code": "HR-12",
+        "id": "523",
+        "name": "مقاطعة برود-بوسافينا"
+      },
+      {
+        "code": "HR-08",
+        "id": "519",
+        "name": "مقاطعة بريموريه-غورسكي كوتار"
+      },
+      {
+        "code": "HR-11",
+        "id": "522",
+        "name": "مقاطعة بوزيغا-سلافونيا"
+      },
+      {
+        "code": "HR-07",
+        "id": "518",
+        "name": "مقاطعة بيلوفار-بيلوغورا"
+      },
+      {
+        "code": "HR-19",
+        "id": "530",
+        "name": "مقاطعة دوبروفنيك-نيريتفا"
+      },
+      {
+        "code": "HR-13",
+        "id": "524",
+        "name": "مقاطعة زادار"
+      },
+      {
+        "code": "HR-01",
+        "id": "512",
+        "name": "مقاطعة زغرب"
+      },
+      {
+        "code": "HR-17",
+        "id": "528",
+        "name": "مقاطعة سبليت-دالماسيا"
+      },
+      {
+        "code": "HR-03",
+        "id": "514",
+        "name": "مقاطعة سيساك-موسلافينا"
+      },
+      {
+        "code": "HR-15",
+        "id": "526",
+        "name": "مقاطعة شيبينيك-كنين"
+      },
+      {
+        "code": "HR-05",
+        "id": "516",
+        "name": "مقاطعة فاراجدين"
+      },
+      {
+        "code": "HR-16",
+        "id": "527",
+        "name": "مقاطعة فوكوفار-سيرميا"
+      },
+      {
+        "code": "HR-10",
+        "id": "521",
+        "name": "مقاطعة فيروفيتيكا-بودرافينا"
+      },
+      {
+        "code": "HR-02",
+        "id": "513",
+        "name": "مقاطعة كاربينسكو زاجورسكا"
+      },
+      {
+        "code": "HR-04",
+        "id": "515",
+        "name": "مقاطعة كارلوفاتس"
+      },
+      {
+        "code": "HR-06",
+        "id": "517",
+        "name": "مقاطعة كوبريفنيكا-كريزفتسي"
+      },
+      {
+        "code": "HR-09",
+        "id": "520",
+        "name": "مقاطعة ليكا سني"
+      },
+      {
+        "code": "HR-20",
+        "id": "531",
+        "name": "مقاطعة ماجيموريه"
+      }
+    ],
+    "three_letter_abbreviation": "HRV",
+    "two_letter_abbreviation": "HR"
+  },
+  {
+    "full_name_english": "Cambodia",
+    "full_name_locale": "كمبوديا",
+    "id": "KH",
+    "three_letter_abbreviation": "KHM",
+    "two_letter_abbreviation": "KH"
+  },
+  {
+    "full_name_english": "Canada",
+    "full_name_locale": "كندا",
+    "id": "CA",
+    "available_regions": [
+      {
+        "code": "AB",
+        "id": "66",
+        "name": " ألبرتا"
+      },
+      {
+        "code": "MB",
+        "id": "68",
+        "name": " مانيتوبا"
+      },
+      {
+        "code": "ON",
+        "id": "74",
+        "name": "أونتاريو"
+      },
+      {
+        "code": "NL",
+        "id": "69",
+        "name": "إقليم نيوفاوندلاند ولابرادور"
+      },
+      {
+        "code": "YT",
+        "id": "78",
+        "name": "إقليم يوكون"
+      },
+      {
+        "code": "PE",
+        "id": "75",
+        "name": "جزيرة الأمير إدوارد"
+      },
+      {
+        "code": "SK",
+        "id": "77",
+        "name": "ساسكاتشوان"
+      },
+      {
+        "code": "BC",
+        "id": "67",
+        "name": "كولومبيا البريطانية"
+      },
+      {
+        "code": "QC",
+        "id": "76",
+        "name": "كيبيك"
+      },
+      {
+        "code": "NT",
+        "id": "72",
+        "name": "مقاطعات الشمال الغربي"
+      },
+      {
+        "code": "NS",
+        "id": "71",
+        "name": "مقاطعة نفوفا سكوشيا"
+      },
+      {
+        "code": "NU",
+        "id": "73",
+        "name": "نونافوت"
+      },
+      {
+        "code": "NB",
+        "id": "70",
+        "name": "نيوبرانزويك"
+      }
+    ],
+    "three_letter_abbreviation": "CAN",
+    "two_letter_abbreviation": "CA"
+  },
+  {
+    "full_name_english": "Cuba",
+    "full_name_locale": "كوبا",
+    "id": "CU",
+    "three_letter_abbreviation": "CUB",
+    "two_letter_abbreviation": "CU"
+  },
+  {
+    "full_name_english": "South Korea",
+    "full_name_locale": "كوريا الجنوبية",
+    "id": "KR",
+    "three_letter_abbreviation": "KOR",
+    "two_letter_abbreviation": "KR"
+  },
+  {
+    "full_name_english": "North Korea",
+    "full_name_locale": "كوريا الشمالية",
+    "id": "KP",
+    "three_letter_abbreviation": "PRK",
+    "two_letter_abbreviation": "KP"
+  },
+  {
+    "full_name_english": "Costa Rica",
+    "full_name_locale": "كوستاريكا",
+    "id": "CR",
+    "three_letter_abbreviation": "CRI",
+    "two_letter_abbreviation": "CR"
+  },
+  {
+    "full_name_english": "Colombia",
+    "full_name_locale": "كولومبيا",
+    "id": "CO",
+    "three_letter_abbreviation": "COL",
+    "two_letter_abbreviation": "CO"
+  },
+  {
+    "full_name_english": "Kiribati",
+    "full_name_locale": "كيريباتي",
+    "id": "KI",
+    "three_letter_abbreviation": "KIR",
+    "two_letter_abbreviation": "KI"
+  },
+  {
+    "full_name_english": "Kenya",
+    "full_name_locale": "كينيا",
+    "id": "KE",
+    "three_letter_abbreviation": "KEN",
+    "two_letter_abbreviation": "KE"
+  },
+  {
+    "full_name_english": "Latvia",
+    "full_name_locale": "لاتفيا",
+    "id": "LV",
+    "available_regions": [
+      {
+        "code": "Engures novads",
+        "id": "393",
+        "name": "إنجوريس"
+      },
+      {
+        "code": "LV-JUR",
+        "id": "358",
+        "name": "جورمالا"
+      },
+      {
+        "code": "Jēkabpils",
+        "id": "357",
+        "name": "جيكابيلس"
+      },
+      {
+        "code": "LV-JEL",
+        "id": "356",
+        "name": "جيلجافا"
+      },
+      {
+        "code": "LV-DGV",
+        "id": "355",
+        "name": "داوجافبليس"
+      },
+      {
+        "code": "LV-RIX",
+        "id": "362",
+        "name": "ريجا"
+      },
+      {
+        "code": "LV-REZ",
+        "id": "361",
+        "name": "ريزكني"
+      },
+      {
+        "code": "Valmiera",
+        "id": "364",
+        "name": "فالميرا"
+      },
+      {
+        "code": "LV-VEN",
+        "id": "365",
+        "name": "فنتسبليس"
+      },
+      {
+        "code": "LV-LPX",
+        "id": "359",
+        "name": "لييباجا"
+      },
+      {
+        "code": "Iecavas novads",
+        "id": "397",
+        "name": "مقاطعة  آيكافاس"
+      },
+      {
+        "code": "Apes novads",
+        "id": "374",
+        "name": "مقاطعة أبيس"
+      },
+      {
+        "code": "Aglonas novads",
+        "id": "366",
+        "name": "مقاطعة أجلوناس"
+      },
+      {
+        "code": "Ādažu novads",
+        "id": "471",
+        "name": "مقاطعة أدازو"
+      },
+      {
+        "code": "Aknīstes novads",
+        "id": "369",
+        "name": "مقاطعة أكنيستيس"
+      },
+      {
+        "code": "Alsungas novads",
+        "id": "371",
+        "name": "مقاطعة ألسونجاس"
+      },
+      {
+        "code": "LV-AL",
+        "id": "372",
+        "name": "مقاطعة ألكسنيز"
+      },
+      {
+        "code": "Alojas novads",
+        "id": "370",
+        "name": "مقاطعة ألوجاس"
+      },
+      {
+        "code": "Amatas novads",
+        "id": "373",
+        "name": "مقاطعة أماتاس"
+      },
+      {
+        "code": "LV-OG",
+        "id": "426",
+        "name": "مقاطعة أوجريز"
+      },
+      {
+        "code": "Ozolnieku novads",
+        "id": "428",
+        "name": "مقاطعة أوزولنايكو"
+      },
+      {
+        "code": "Auces novads",
+        "id": "375",
+        "name": "مقاطعة أوسيس"
+      },
+      {
+        "code": "Olaines novads",
+        "id": "427",
+        "name": "مقاطعة أولاينيس"
+      },
+      {
+        "code": "Aizputes novads",
+        "id": "368",
+        "name": "مقاطعة أيزبوتيس"
+      },
+      {
+        "code": "LV-AI",
+        "id": "367",
+        "name": "مقاطعة أيزكروكليز"
+      },
+      {
+        "code": "Ērgļu novads",
+        "id": "472",
+        "name": "مقاطعة إرجلو"
+      },
+      {
+        "code": "Ikšķiles novads",
+        "id": "398",
+        "name": "مقاطعة إكسكيليس"
+      },
+      {
+        "code": "Ilūkstes novads",
+        "id": "399",
+        "name": "مقاطعة إلوكستيس"
+      },
+      {
+        "code": "Inčukalna novads",
+        "id": "400",
+        "name": "مقاطعة إنكوكالنا"
+      },
+      {
+        "code": "Babītes novads",
+        "id": "376",
+        "name": "مقاطعة بابيتيس"
+      },
+      {
+        "code": "Pārgaujas novads",
+        "id": "432",
+        "name": "مقاطعة بارجوجاس"
+      },
+      {
+        "code": "Pāvilostas novads",
+        "id": "433",
+        "name": "مقاطعة بافيلوستاس"
+      },
+      {
+        "code": "Baltinavas novads",
+        "id": "378",
+        "name": "مقاطعة بالتينافاس"
+      },
+      {
+        "code": "Baldones novads",
+        "id": "377",
+        "name": "مقاطعة بالدونيس"
+      },
+      {
+        "code": "LV-BL",
+        "id": "379",
+        "name": "مقاطعة بالفو"
+      },
+      {
+        "code": "Priekuļu novads",
+        "id": "431",
+        "name": "مقاطعة برايكولو"
+      },
+      {
+        "code": "Priekules novads",
+        "id": "430",
+        "name": "مقاطعة برايكوليس"
+      },
+      {
+        "code": "Brocēnu novads",
+        "id": "382",
+        "name": "مقاطعة بروسينو"
+      },
+      {
+        "code": "LV-PR",
+        "id": "429",
+        "name": "مقاطعة برييلو"
+      },
+      {
+        "code": "Pļaviņu novads",
+        "id": "434",
+        "name": "مقاطعة بلافينو"
+      },
+      {
+        "code": "Burtnieku novads",
+        "id": "383",
+        "name": "مقاطعة بورتنيكو"
+      },
+      {
+        "code": "LV-BU",
+        "id": "380",
+        "name": "مقاطعة بوسكاس"
+      },
+      {
+        "code": "Beverīnas novads",
+        "id": "381",
+        "name": "مقاطعة بيفيريناس"
+      },
+      {
+        "code": "LV-TA",
+        "id": "456",
+        "name": "مقاطعة تالسو"
+      },
+      {
+        "code": "LV-TU",
+        "id": "457",
+        "name": "مقاطعة توكوما"
+      },
+      {
+        "code": "Tērvetes novads",
+        "id": "458",
+        "name": "مقاطعة تيرفيتيس"
+      },
+      {
+        "code": "Garkalnes novads",
+        "id": "394",
+        "name": "مقاطعة جاركالنيس"
+      },
+      {
+        "code": "Jaunpiebalgas novads",
+        "id": "402",
+        "name": "مقاطعة جاونبيبالجاس"
+      },
+      {
+        "code": "Grobiņas novads",
+        "id": "395",
+        "name": "مقاطعة جروبيناس"
+      },
+      {
+        "code": "LV-GU",
+        "id": "396",
+        "name": "مقاطعة جلبينيس"
+      },
+      {
+        "code": "Jaunpils novads",
+        "id": "403",
+        "name": "مقاطعة جونبيلس"
+      },
+      {
+        "code": "Jaunjelgavas novads",
+        "id": "401",
+        "name": "مقاطعة جونجيلجافاس"
+      },
+      {
+        "code": "LV-JK",
+        "id": "405",
+        "name": "مقاطعة جيكاببليز"
+      },
+      {
+        "code": "LV-JL",
+        "id": "404",
+        "name": "مقاطعة جيلجافاس"
+      },
+      {
+        "code": "Dagdas novads",
+        "id": "388",
+        "name": "مقاطعة داجداس"
+      },
+      {
+        "code": "LV-DO",
+        "id": "390",
+        "name": "مقاطعة دوبيليز"
+      },
+      {
+        "code": "LV-DA",
+        "id": "389",
+        "name": "مقاطعة دوجافبيلز"
+      },
+      {
+        "code": "Durbes novads",
+        "id": "392",
+        "name": "مقاطعة دوربيس"
+      },
+      {
+        "code": "Dundagas novads",
+        "id": "391",
+        "name": "مقاطعة دونداجاس"
+      },
+      {
+        "code": "Raunas novads",
+        "id": "435",
+        "name": "مقاطعة راوناس"
+      },
+      {
+        "code": "Riebiņu novads",
+        "id": "436",
+        "name": "مقاطعة رايبينو"
+      },
+      {
+        "code": "Ropažu novads",
+        "id": "438",
+        "name": "مقاطعة روبازو"
+      },
+      {
+        "code": "Rugāju novads",
+        "id": "440",
+        "name": "مقاطعة روجاجو"
+      },
+      {
+        "code": "Rojas novads",
+        "id": "437",
+        "name": "مقاطعة روجاس"
+      },
+      {
+        "code": "Rūjienas novads",
+        "id": "443",
+        "name": "مقاطعة روجايناس"
+      },
+      {
+        "code": "Rucavas novads",
+        "id": "439",
+        "name": "مقاطعة روكافاس"
+      },
+      {
+        "code": "Rundāles novads",
+        "id": "441",
+        "name": "مقاطعة رونداليس"
+      },
+      {
+        "code": "LV-RI",
+        "id": "363",
+        "name": "مقاطعة ريجا"
+      },
+      {
+        "code": "LV-RE",
+        "id": "442",
+        "name": "مقاطعة ريزيكنيس"
+      },
+      {
+        "code": "Zilupes novads",
+        "id": "470",
+        "name": "مقاطعة زيلوبيس"
+      },
+      {
+        "code": "Salacgrīvas novads",
+        "id": "444",
+        "name": "مقاطعة سالاجريفاس"
+      },
+      {
+        "code": "Salas novads",
+        "id": "445",
+        "name": "مقاطعة سالاس"
+      },
+      {
+        "code": "Salaspils novads",
+        "id": "446",
+        "name": "مقاطعة سالاسبيلس"
+      },
+      {
+        "code": "LV-SA",
+        "id": "447",
+        "name": "مقاطعة سالدس"
+      },
+      {
+        "code": "Saulkrastu novads",
+        "id": "448",
+        "name": "مقاطعة ساولكراستو"
+      },
+      {
+        "code": "Strenču novads",
+        "id": "454",
+        "name": "مقاطعة سترينكو"
+      },
+      {
+        "code": "Stopiņu novads",
+        "id": "453",
+        "name": "مقاطعة ستوبينو"
+      },
+      {
+        "code": "Skrundas novads",
+        "id": "450",
+        "name": "مقاطعة سكرونداس"
+      },
+      {
+        "code": "Skrīveru novads",
+        "id": "451",
+        "name": "مقاطعة سكريفيرو"
+      },
+      {
+        "code": "Smiltenes novads",
+        "id": "452",
+        "name": "مقاطعة سميلتينيس"
+      },
+      {
+        "code": "Ciblas novads",
+        "id": "386",
+        "name": "مقاطعة سيبلاس"
+      },
+      {
+        "code": "Sējas novads",
+        "id": "455",
+        "name": "مقاطعة سيجاس"
+      },
+      {
+        "code": "Siguldas novads",
+        "id": "449",
+        "name": "مقاطعة سيجولداس"
+      },
+      {
+        "code": "Cesvaines novads",
+        "id": "385",
+        "name": "مقاطعة سيسفاينيس"
+      },
+      {
+        "code": "LV-CE",
+        "id": "387",
+        "name": "مقاطعة سيسو"
+      },
+      {
+        "code": "Varakļānu novads",
+        "id": "462",
+        "name": "مقاطعة فاراكلانو"
+      },
+      {
+        "code": "Vārkavas novads",
+        "id": "469",
+        "name": "مقاطعة فاركافاس"
+      },
+      {
+        "code": "LV-VK",
+        "id": "460",
+        "name": "مقاطعة فالكاس"
+      },
+      {
+        "code": "LV-VM",
+        "id": "461",
+        "name": "مقاطعة فالميرا"
+      },
+      {
+        "code": "Viesītes novads",
+        "id": "466",
+        "name": "مقاطعة فايسيتيس"
+      },
+      {
+        "code": "Vaiņodes novads",
+        "id": "459",
+        "name": "مقاطعة فاينوديس"
+      },
+      {
+        "code": "Vecpiebalgas novads",
+        "id": "463",
+        "name": "مقاطعة فيبيبلاجاس"
+      },
+      {
+        "code": "Vecumnieku novads",
+        "id": "464",
+        "name": "مقاطعة فيكومنيكو"
+      },
+      {
+        "code": "Viļakas novads",
+        "id": "467",
+        "name": "مقاطعة فيلاكاس"
+      },
+      {
+        "code": "Viļānu novads",
+        "id": "468",
+        "name": "مقاطعة فيلانو"
+      },
+      {
+        "code": "LV-VE",
+        "id": "465",
+        "name": "مقاطعة فينتسبيلس"
+      },
+      {
+        "code": "Kārsavas novads",
+        "id": "412",
+        "name": "مقاطعة كارسافاس"
+      },
+      {
+        "code": "Carnikavas novads",
+        "id": "384",
+        "name": "مقاطعة كارنيكافاس"
+      },
+      {
+        "code": "Kandavas novads",
+        "id": "406",
+        "name": "مقاطعة كاندافاس"
+      },
+      {
+        "code": "LV-KR",
+        "id": "410",
+        "name": "مقاطعة كراسلافاس"
+      },
+      {
+        "code": "Krustpils novads",
+        "id": "409",
+        "name": "مقاطعة كروستبيلس"
+      },
+      {
+        "code": "Krimuldas novads",
+        "id": "408",
+        "name": "مقاطعة كريمولداس"
+      },
+      {
+        "code": "LV-KU",
+        "id": "411",
+        "name": "مقاطعة كلديجاس"
+      },
+      {
+        "code": "Kokneses novads",
+        "id": "407",
+        "name": "مقاطعة كوكنيسيس"
+      },
+      {
+        "code": "Ķeguma novads",
+        "id": "473",
+        "name": "مقاطعة كيجوما"
+      },
+      {
+        "code": "Lielvārdes novads",
+        "id": "413",
+        "name": "مقاطعة لايلفارديس"
+      },
+      {
+        "code": "LV-LU",
+        "id": "416",
+        "name": "مقاطعة لدزاس"
+      },
+      {
+        "code": "Lubānas novads",
+        "id": "415",
+        "name": "مقاطعة لوباناس"
+      },
+      {
+        "code": "Līgatnes novads",
+        "id": "417",
+        "name": "مقاطعة ليجاتنيس"
+      },
+      {
+        "code": "Līvānu novads",
+        "id": "418",
+        "name": "مقاطعة ليفانو"
+      },
+      {
+        "code": "LV-LM",
+        "id": "414",
+        "name": "مقاطعة ليمبازو"
+      },
+      {
+        "code": "LV-LE",
+        "id": "360",
+        "name": "مقاطعة لييباجا"
+      },
+      {
+        "code": "LV-MA",
+        "id": "419",
+        "name": "مقاطعة مادوناس"
+      },
+      {
+        "code": "Mārupes novads",
+        "id": "422",
+        "name": "مقاطعة مارويبس"
+      },
+      {
+        "code": "Mazsalacas novads",
+        "id": "420",
+        "name": "مقاطعة مازسالاكاس"
+      },
+      {
+        "code": "Mālpils novads",
+        "id": "421",
+        "name": "مقاطعة مالبيلس"
+      },
+      {
+        "code": "Naukšēnu novads",
+        "id": "423",
+        "name": "مقاطعة نوكسينو"
+      },
+      {
+        "code": "Neretas novads",
+        "id": "424",
+        "name": "مقاطعة نيريتاس"
+      },
+      {
+        "code": "Nīcas novads",
+        "id": "425",
+        "name": "مقاطعة نيكاس"
+      },
+      {
+        "code": "Ķekavas novads",
+        "id": "474",
+        "name": "مقاطعةكيكافاس"
+      }
+    ],
+    "three_letter_abbreviation": "LVA",
+    "two_letter_abbreviation": "LV"
+  },
+  {
+    "full_name_english": "Laos",
+    "full_name_locale": "لاوس",
+    "id": "LA",
+    "three_letter_abbreviation": "LAO",
+    "two_letter_abbreviation": "LA"
+  },
+  {
+    "full_name_english": "Lebanon",
+    "full_name_locale": "لبنان",
+    "id": "LB",
+    "three_letter_abbreviation": "LBN",
+    "two_letter_abbreviation": "LB"
+  },
+  {
+    "full_name_english": "Luxembourg",
+    "full_name_locale": "لوكسمبورغ",
+    "id": "LU",
+    "three_letter_abbreviation": "LUX",
+    "two_letter_abbreviation": "LU"
+  },
+  {
+    "full_name_english": "Libya",
+    "full_name_locale": "ليبيا",
+    "id": "LY",
+    "three_letter_abbreviation": "LBY",
+    "two_letter_abbreviation": "LY"
+  },
+  {
+    "full_name_english": "Liberia",
+    "full_name_locale": "ليبيريا",
+    "id": "LR",
+    "three_letter_abbreviation": "LBR",
+    "two_letter_abbreviation": "LR"
+  },
+  {
+    "full_name_english": "Lithuania",
+    "full_name_locale": "ليتوانيا",
+    "id": "LT",
+    "available_regions": [
+      {
+        "code": "LT-AL",
+        "id": "475",
+        "name": "مقاطعة أليتس"
+      },
+      {
+        "code": "LT-UT",
+        "id": "483",
+        "name": "مقاطعة أوتينا"
+      },
+      {
+        "code": "LT-PN",
+        "id": "479",
+        "name": "مقاطعة بانيفيزيس"
+      },
+      {
+        "code": "LT-TA",
+        "id": "481",
+        "name": "مقاطعة تاوراغه"
+      },
+      {
+        "code": "LT-TE",
+        "id": "482",
+        "name": "مقاطعة تيلسياي"
+      },
+      {
+        "code": "LT-SA",
+        "id": "480",
+        "name": "مقاطعة شياولياي"
+      },
+      {
+        "code": "LT-VL",
+        "id": "484",
+        "name": "مقاطعة فيلنيوس"
+      },
+      {
+        "code": "LT-KU",
+        "id": "476",
+        "name": "مقاطعة كاوناس"
+      },
+      {
+        "code": "LT-KL",
+        "id": "477",
+        "name": "مقاطعة كلايبيدا"
+      },
+      {
+        "code": "LT-MR",
+        "id": "478",
+        "name": "مقاطعة ميرايامبوله"
+      }
+    ],
+    "three_letter_abbreviation": "LTU",
+    "two_letter_abbreviation": "LT"
+  },
+  {
+    "full_name_english": "Liechtenstein",
+    "full_name_locale": "ليختنشتاين",
+    "id": "LI",
+    "three_letter_abbreviation": "LIE",
+    "two_letter_abbreviation": "LI"
+  },
+  {
+    "full_name_english": "Lesotho",
+    "full_name_locale": "ليسوتو",
+    "id": "LS",
+    "three_letter_abbreviation": "LSO",
+    "two_letter_abbreviation": "LS"
+  },
+  {
+    "full_name_english": "Malta",
+    "full_name_locale": "مالطا",
+    "id": "MT",
+    "three_letter_abbreviation": "MLT",
+    "two_letter_abbreviation": "MT"
+  },
+  {
+    "full_name_english": "Mali",
+    "full_name_locale": "مالي",
+    "id": "ML",
+    "three_letter_abbreviation": "MLI",
+    "two_letter_abbreviation": "ML"
+  },
+  {
+    "full_name_english": "Malaysia",
+    "full_name_locale": "ماليزيا",
+    "id": "MY",
+    "three_letter_abbreviation": "MYS",
+    "two_letter_abbreviation": "MY"
+  },
+  {
+    "full_name_english": "Mayotte",
+    "full_name_locale": "مايوت",
+    "id": "YT",
+    "three_letter_abbreviation": "MYT",
+    "two_letter_abbreviation": "YT"
+  },
+  {
+    "full_name_english": "Madagascar",
+    "full_name_locale": "مدغشقر",
+    "id": "MG",
+    "three_letter_abbreviation": "MDG",
+    "two_letter_abbreviation": "MG"
+  },
+  {
+    "full_name_english": "Egypt",
+    "full_name_locale": "مصر",
+    "id": "EG",
+    "three_letter_abbreviation": "EGY",
+    "two_letter_abbreviation": "EG"
+  },
+  {
+    "full_name_english": "North Macedonia",
+    "full_name_locale": "مقدونيا الشمالية",
+    "id": "MK",
+    "three_letter_abbreviation": "MKD",
+    "two_letter_abbreviation": "MK"
+  },
+  {
+    "full_name_english": "Malawi",
+    "full_name_locale": "ملاوي",
+    "id": "MW",
+    "three_letter_abbreviation": "MWI",
+    "two_letter_abbreviation": "MW"
+  },
+  {
+    "full_name_english": "Macao SAR China",
+    "full_name_locale": "منطقة ماكاو الإدارية الخاصة",
+    "id": "MO",
+    "three_letter_abbreviation": "MAC",
+    "two_letter_abbreviation": "MO"
+  },
+  {
+    "full_name_english": "Mongolia",
+    "full_name_locale": "منغوليا",
+    "id": "MN",
+    "three_letter_abbreviation": "MNG",
+    "two_letter_abbreviation": "MN"
+  },
+  {
+    "full_name_english": "Mauritania",
+    "full_name_locale": "موريتانيا",
+    "id": "MR",
+    "three_letter_abbreviation": "MRT",
+    "two_letter_abbreviation": "MR"
+  },
+  {
+    "full_name_english": "Mauritius",
+    "full_name_locale": "موريشيوس",
+    "id": "MU",
+    "three_letter_abbreviation": "MUS",
+    "two_letter_abbreviation": "MU"
+  },
+  {
+    "full_name_english": "Mozambique",
+    "full_name_locale": "موزمبيق",
+    "id": "MZ",
+    "three_letter_abbreviation": "MOZ",
+    "two_letter_abbreviation": "MZ"
+  },
+  {
+    "full_name_english": "Moldova",
+    "full_name_locale": "مولدوفا",
+    "id": "MD",
+    "three_letter_abbreviation": "MDA",
+    "two_letter_abbreviation": "MD"
+  },
+  {
+    "full_name_english": "Monaco",
+    "full_name_locale": "موناكو",
+    "id": "MC",
+    "three_letter_abbreviation": "MCO",
+    "two_letter_abbreviation": "MC"
+  },
+  {
+    "full_name_english": "Montserrat",
+    "full_name_locale": "مونتسرات",
+    "id": "MS",
+    "three_letter_abbreviation": "MSR",
+    "two_letter_abbreviation": "MS"
+  },
+  {
+    "full_name_english": "Myanmar (Burma)",
+    "full_name_locale": "ميانمار (بورما)",
+    "id": "MM",
+    "three_letter_abbreviation": "MMR",
+    "two_letter_abbreviation": "MM"
+  },
+  {
+    "full_name_english": "Micronesia",
+    "full_name_locale": "ميكرونيزيا",
+    "id": "FM",
+    "three_letter_abbreviation": "FSM",
+    "two_letter_abbreviation": "FM"
+  },
+  {
+    "full_name_english": "Namibia",
+    "full_name_locale": "ناميبيا",
+    "id": "NA",
+    "three_letter_abbreviation": "NAM",
+    "two_letter_abbreviation": "NA"
+  },
+  {
+    "full_name_english": "Nauru",
+    "full_name_locale": "ناورو",
+    "id": "NR",
+    "three_letter_abbreviation": "NRU",
+    "two_letter_abbreviation": "NR"
+  },
+  {
+    "full_name_english": "Nepal",
+    "full_name_locale": "نيبال",
+    "id": "NP",
+    "three_letter_abbreviation": "NPL",
+    "two_letter_abbreviation": "NP"
+  },
+  {
+    "full_name_english": "Nigeria",
+    "full_name_locale": "نيجيريا",
+    "id": "NG",
+    "three_letter_abbreviation": "NGA",
+    "two_letter_abbreviation": "NG"
+  },
+  {
+    "full_name_english": "Nicaragua",
+    "full_name_locale": "نيكاراغوا",
+    "id": "NI",
+    "three_letter_abbreviation": "NIC",
+    "two_letter_abbreviation": "NI"
+  },
+  {
+    "full_name_english": "New Zealand",
+    "full_name_locale": "نيوزيلندا",
+    "id": "NZ",
+    "three_letter_abbreviation": "NZL",
+    "two_letter_abbreviation": "NZ"
+  },
+  {
+    "full_name_english": "Niue",
+    "full_name_locale": "نيوي",
+    "id": "NU",
+    "three_letter_abbreviation": "NIU",
+    "two_letter_abbreviation": "NU"
+  },
+  {
+    "full_name_english": "Haiti",
+    "full_name_locale": "هايتي",
+    "id": "HT",
+    "three_letter_abbreviation": "HTI",
+    "two_letter_abbreviation": "HT"
+  },
+  {
+    "full_name_english": "Honduras",
+    "full_name_locale": "هندوراس",
+    "id": "HN",
+    "three_letter_abbreviation": "HND",
+    "two_letter_abbreviation": "HN"
+  },
+  {
+    "full_name_english": "Hungary",
+    "full_name_locale": "هنغاريا",
+    "id": "HU",
+    "three_letter_abbreviation": "HUN",
+    "two_letter_abbreviation": "HU"
+  },
+  {
+    "full_name_english": "Netherlands",
+    "full_name_locale": "هولندا",
+    "id": "NL",
+    "three_letter_abbreviation": "NLD",
+    "two_letter_abbreviation": "NL"
+  },
+  {
+    "full_name_english": "Hong Kong SAR China",
+    "full_name_locale": "هونغ كونغ الصينية (منطقة إدارية خاصة)",
+    "id": "HK",
+    "three_letter_abbreviation": "HKG",
+    "two_letter_abbreviation": "HK"
+  }
+]

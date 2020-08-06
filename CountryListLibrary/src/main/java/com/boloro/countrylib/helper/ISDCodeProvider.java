@@ -5,6 +5,7 @@ import android.text.TextUtils;
 
 import com.boloro.countrylib.R;
 import com.boloro.countrylib.model.Country;
+import com.boloro.countrylib.model.NationalityData;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -17,36 +18,43 @@ import java.util.List;
  */
 public class ISDCodeProvider {
     private static ISDCodeProvider isdCodeProvider;
-    private List<Country> countries;
+    private List<Country> countriesCodeList;
+    private List<NationalityData> nationalityDataList;
+    private List<Country> countriesDataList;
     private final String DEFAULT_ISD_CODE = "AE";
 
     /**
-     *
      * @param context class context
      */
-    public synchronized static void initialize(Context context) {
+    public synchronized static void initialize(Context context, String localeCode) {
         if (isdCodeProvider == null) {
             isdCodeProvider = new ISDCodeProvider();
         }
-        isdCodeProvider.loadCountriesWithISDCode(context);
+        isdCodeProvider.loadCountriesWithISDCode(context, R.raw.countries);
+        if (!localeCode.isEmpty() && localeCode.equals("en_US")) {
+            isdCodeProvider.loadCountriesData(context, R.raw.country_en);
+            isdCodeProvider.loadNationalityData(context, R.raw.nationality_en);
+        } else {
+            isdCodeProvider.loadCountriesData(context, R.raw.country_ar);
+            isdCodeProvider.loadNationalityData(context, R.raw.nationality_ar);
+        }
     }
 
     /**
-     *
      * @return isd code
      */
     public static ISDCodeProvider getIsdCodeProvider() {
         return isdCodeProvider;
     }
 
-    public List<Country> getCountries() {
-        return countries;
+    public List<Country> getCountriesCodeList() {
+        return countriesCodeList;
     }
 
-    private String loadJSONFromResource(Context context) {
+    private String loadJSONFromResource(Context context, int rawFile) {
         String json = null;
         try {
-            InputStream is = context.getResources().openRawResource(R.raw.countries);
+            InputStream is = context.getResources().openRawResource(rawFile);
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -580,8 +588,8 @@ public class ISDCodeProvider {
         if (TextUtils.isEmpty(code))
             return getDefaultCountry();
 
-        if (!countries.isEmpty()) {
-            for (Country country : countries) {
+        if (!countriesCodeList.isEmpty()) {
+            for (Country country : countriesCodeList) {
                 if (country.getId().equalsIgnoreCase(code))
                     return country;
             }
@@ -601,7 +609,7 @@ public class ISDCodeProvider {
         int count = 0;
         Country c = getCountryWithoutFlag(isdCode);
 
-        for (Country country : countries) {
+        for (Country country : countriesCodeList) {
             if (country.getIsdCode().equalsIgnoreCase(isdCode)) {
                 c = country;
                 if (++count > 1) {
@@ -614,9 +622,29 @@ public class ISDCodeProvider {
     }
 
 
-    private void loadCountriesWithISDCode(Context context) {
-        countries = new Gson().fromJson(loadJSONFromResource(context),
+    private void loadCountriesWithISDCode(Context context, int rawFile) {
+        countriesCodeList = new Gson().fromJson(loadJSONFromResource(context, rawFile),
                 new TypeToken<List<Country>>() {
                 }.getType());
+    }
+
+    private void loadCountriesData(Context context, int rawFile) {
+        countriesDataList = new Gson().fromJson(loadJSONFromResource(context, rawFile),
+                new TypeToken<List<Country>>() {
+                }.getType());
+    }
+
+    private void loadNationalityData(Context context, int rawFile) {
+        nationalityDataList = new Gson().fromJson(loadJSONFromResource(context, rawFile),
+                new TypeToken<List<Country>>() {
+                }.getType());
+    }
+
+    public List<NationalityData> getNationalityDataList() {
+        return nationalityDataList;
+    }
+
+    public List<Country> getCountriesDataList() {
+        return countriesDataList;
     }
 }

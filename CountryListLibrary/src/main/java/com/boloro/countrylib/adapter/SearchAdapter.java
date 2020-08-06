@@ -1,4 +1,4 @@
-package com.boloro.countrylib;
+package com.boloro.countrylib.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,10 +9,18 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.boloro.countrylib.helper.Filterable;
+import com.boloro.countrylib.R;
+import com.boloro.countrylib.helper.SearchText;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * Search Adapter
+ * @param <T> pass class
+ */
 public class SearchAdapter<T extends Filterable> extends RecyclerView.Adapter<SearchAdapter.ItemViewHolder> implements android.widget.Filterable {
 
     protected boolean showAsLocale;
@@ -30,12 +38,21 @@ public class SearchAdapter<T extends Filterable> extends RecyclerView.Adapter<Se
         this.showAsLocale = showAsLocale;
     }
 
+    /**
+     *
+     * @param list list
+     * @param showAsLocale true for locale
+     */
     public SearchAdapter(List<T> list, boolean showAsLocale) {
         this(showAsLocale);
         if (list != null)
             this.itemList.addAll(list);
     }
 
+    /**
+     *
+     * @param listener listner
+     */
     public void setItemSelectedListener(ItemSelectedListener<T> listener) {
         this.listener = listener;
     }

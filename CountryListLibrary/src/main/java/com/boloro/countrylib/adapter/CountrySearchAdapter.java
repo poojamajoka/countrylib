@@ -1,4 +1,4 @@
-package com.boloro.countrylib;
+package com.boloro.countrylib.adapter;
 
 import android.text.TextUtils;
 import android.view.LayoutInflater;
@@ -9,13 +9,18 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.AppCompatTextView;
 
 
+import com.boloro.countrylib.helper.ISDCodeProvider;
+import com.boloro.countrylib.R;
+import com.boloro.countrylib.model.Country;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
 
-
+/**
+ * country search adapter
+ */
 public class CountrySearchAdapter extends SearchAdapter<Country> {
     private boolean showFlag;
 

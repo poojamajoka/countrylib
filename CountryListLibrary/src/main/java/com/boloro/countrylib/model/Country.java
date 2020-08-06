@@ -1,13 +1,16 @@
-package com.boloro.countrylib;
+package com.boloro.countrylib.model;
 
 import androidx.annotation.Keep;
 
 
+import com.boloro.countrylib.helper.Filterable;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-
+/**
+ * country model
+ */
 @Keep
 public class Country implements Comparable<Country>, Filterable {
     @SerializedName("id")

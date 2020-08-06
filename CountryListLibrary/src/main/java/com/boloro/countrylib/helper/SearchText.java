@@ -1,18 +1,31 @@
-package com.boloro.countrylib;
+package com.boloro.countrylib.helper;
 
 import android.text.TextUtils;
 import android.widget.Filter;
+
+import com.boloro.countrylib.adapter.SearchAdapter;
+import com.boloro.countrylib.helper.Filterable;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
+/**
+ * Search Result class
+ * @param <T> class
+ */
 public class SearchText<T extends Filterable> extends Filter {
 
     private final List<T> originalList;
     private SearchAdapter countryNameAdapter;
     private boolean showAsLocale;
 
+    /**
+     *
+     * @param countryNameAdapter country name adapter
+     * @param list list
+     * @param showAsLocale lang
+     */
     public SearchText(SearchAdapter countryNameAdapter,
                       List<T> list, boolean showAsLocale) {
         this.countryNameAdapter = countryNameAdapter;

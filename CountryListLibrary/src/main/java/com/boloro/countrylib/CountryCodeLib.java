@@ -17,6 +17,10 @@ import androidx.appcompat.widget.AppCompatEditText;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.boloro.countrylib.adapter.CountrySearchAdapter;
+import com.boloro.countrylib.helper.ISDCodeProvider;
+import com.boloro.countrylib.model.Country;
+
 import java.util.List;
 
 public class CountryCodeLib extends AppCompatDialogFragment {
@@ -129,14 +133,14 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         processIsdCode(country);
     }
 
-    private static void processIsdCode(Country country) {
+    public static void processIsdCode(Country country) {
         ISDCodeProvider isdCodeProvider = ISDCodeProvider.getIsdCodeProvider();
         if (country == null)
             country = isdCodeProvider.getDefaultCountry();
         CountryCodeLib.country = country;
         if (countryCodeListner != null) {
             countryCodeListner.getCountryCode(country);
-            countryCodeListner.getCountryflag(isdCodeProvider.getFlagEmoji(CountryCodeLib.country.getId()));
+            countryCodeListner.getCountryFlag(isdCodeProvider.getFlagEmoji(CountryCodeLib.country.getId()));
         }
 
     }
@@ -154,7 +158,7 @@ public class CountryCodeLib extends AppCompatDialogFragment {
         /**
          * @param flag return flag
          */
-        void getCountryflag(String flag);
+        void getCountryFlag(String flag);
     }
 
 

@@ -1,8 +1,10 @@
-package com.boloro.countrylib;
+package com.boloro.countrylib.helper;
 
 import android.content.Context;
 import android.text.TextUtils;
 
+import com.boloro.countrylib.R;
+import com.boloro.countrylib.model.Country;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -10,11 +12,18 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+/**
+ * ISC Code and flag handler
+ */
 public class ISDCodeProvider {
     private static ISDCodeProvider isdCodeProvider;
     private List<Country> countries;
     private final String DEFAULT_ISD_CODE = "AE";
 
+    /**
+     *
+     * @param context class context
+     */
     public synchronized static void initialize(Context context) {
         if (isdCodeProvider == null) {
             isdCodeProvider = new ISDCodeProvider();
@@ -22,6 +31,10 @@ public class ISDCodeProvider {
         isdCodeProvider.loadCountriesWithISDCode(context);
     }
 
+    /**
+     *
+     * @return isd code
+     */
     public static ISDCodeProvider getIsdCodeProvider() {
         return isdCodeProvider;
     }
@@ -48,8 +61,8 @@ public class ISDCodeProvider {
     /**
      * Returns image res based on country name code
      *
-     * @param id
-     * @return
+     * @param id id
+     * @return flag
      */
     public String getFlagEmoji(String id) {
         switch (id.toLowerCase()) {

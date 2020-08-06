@@ -1,11 +1,14 @@
-package com.boloro.countrylib;
+package com.boloro.countrylib.model;
 
 import androidx.annotation.Keep;
 
+import com.boloro.countrylib.helper.Filterable;
 import com.google.gson.annotations.SerializedName;
 
 
-
+/**
+ * region model
+ */
 @Keep
 public class Region implements Filterable {
     @SerializedName("id")

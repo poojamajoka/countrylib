@@ -23,10 +23,19 @@ public class CountryCodeLib extends AppCompatDialogFragment {
     private static Country country;
     private static CountryCodeListner countryCodeListner;
 
+    /**
+     *
+     * @param callback interface callback
+     */
     public CountryCodeLib(CountryCodeListner callback) {
         countryCodeListner = callback;
     }
 
+    /**
+     * default counstructor
+     */
+    public CountryCodeLib() {
+    }
 
     @Nullable
     @Override

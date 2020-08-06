@@ -36,7 +36,7 @@ public class CountryNationalityLib {
 
     public synchronized static void initialize(Context context) {
         if (countryNationalityLib == null) {
-            new CountryNationalityLib(context);
+           countryNationalityLib= new CountryNationalityLib(context);
         }
     }
 

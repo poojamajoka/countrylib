@@ -23,36 +23,29 @@ import com.boloro.countrylib.model.Country;
 import com.boloro.countrylib.model.NationalityData;
 import com.boloro.countrylib.model.Region;
 
-import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 public class CountryNationalityLib {
-    private WeakReference<Context> mContext;
 
     private static CountryNationalityLib countryNationalityLib;
     private List<Region> regionList;
 
-    public synchronized static void initialize(Context context) {
-        if (countryNationalityLib == null) {
-           countryNationalityLib= new CountryNationalityLib(context);
-        }
-    }
 
     public static CountryNationalityLib getCountryNationalityLib() {
+        if (countryNationalityLib == null) {
+            countryNationalityLib= new CountryNationalityLib();
+        }
        return countryNationalityLib;
     }
 
-    private CountryNationalityLib(Context context) {
-        mContext = new WeakReference<>(context);
-    }
 
-    private Dialog showSearchDialog(SearchAdapter<? extends Filterable> searchAdapter, SearchAdapter.CancelListener cancelListener) {
-        Dialog searchDialog = setDialogProperty(mContext.get(), R.layout.search_dialog);
+    private Dialog showSearchDialog(Context context,SearchAdapter<? extends Filterable> searchAdapter, SearchAdapter.CancelListener cancelListener) {
+        Dialog searchDialog = setDialogProperty(context, R.layout.search_dialog);
         searchDialog.setCancelable(true);
         RecyclerView recycleView = searchDialog.findViewById(R.id.recycler_view);
-        recycleView.setLayoutManager(new LinearLayoutManager(mContext.get(), LinearLayoutManager.VERTICAL, false));
+        recycleView.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false));
         recycleView.setHasFixedSize(true);
         recycleView.setAdapter(searchAdapter);
         AppCompatEditText inputView = searchDialog.findViewById(R.id.input_search);
@@ -79,18 +72,14 @@ public class CountryNationalityLib {
             searchDialog.cancel();
             cancelListener.onCancel();
         });
-        /*can(dialogInterface -> {
-            ((BaseActivity) getActivity()).hideKeyboard();
-        });*/
-        ivDelete.setOnClickListener(view -> inputView.setText(""));
 
-        //searchDialog.show();
+        ivDelete.setOnClickListener(view -> inputView.setText(""));
         return searchDialog;
     }
 
-    public void showCountryDialog(ICountryCallBack countryCallBack) {
+    public void showCountryDialog(Context context,ICountryCallBack countryCallBack) {
         CountrySearchAdapter adapter = new CountrySearchAdapter(ISDCodeProvider.getIsdCodeProvider().getCountriesDataList(), true, false);
-        Dialog dialog = showSearchDialog(adapter, () -> {
+        Dialog dialog = showSearchDialog(context,adapter, () -> {
             if (countryCallBack != null)
                 countryCallBack.onCancel();
         });
@@ -106,9 +95,9 @@ public class CountryNationalityLib {
         dialog.show();
     }
 
-    public void showStateDialog(IStateCallBack iStateCallBack) {
+    public void showStateDialog(Context context,IStateCallBack iStateCallBack) {
         SearchAdapter<Region> adapter = new SearchAdapter(regionList, true);
-        Dialog dialog = showSearchDialog(adapter, () -> {
+        Dialog dialog = showSearchDialog(context,adapter, () -> {
             if (iStateCallBack != null)
                 iStateCallBack.onCancel();
         });
@@ -118,11 +107,12 @@ public class CountryNationalityLib {
                 iStateCallBack.itemSelect(item);
 
         });
+        dialog.show();
     }
 
-    public void showNationalityDialog(INationalityCallBack iNationalityCallBack) {
+    public void showNationalityDialog(Context context,INationalityCallBack iNationalityCallBack) {
         SearchAdapter<NationalityData> adapter = new SearchAdapter(ISDCodeProvider.getIsdCodeProvider().getNationalityDataList(), true);
-        Dialog dialog = showSearchDialog(adapter, () -> {
+        Dialog dialog = showSearchDialog(context,adapter, () -> {
             if (iNationalityCallBack != null)
                 iNationalityCallBack.onCancel();
         });
@@ -132,6 +122,7 @@ public class CountryNationalityLib {
                 iNationalityCallBack.itemSelect(item);
 
         });
+        dialog.show();
     }
 
 

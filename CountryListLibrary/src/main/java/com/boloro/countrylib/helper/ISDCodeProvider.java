@@ -21,7 +21,7 @@ public class ISDCodeProvider {
     private List<Country> countriesCodeList;
     private List<NationalityData> nationalityDataList;
     private List<Country> countriesDataList;
-    private final String DEFAULT_ISD_CODE = "AE";
+    private String DEFAULT_ISD_CODE = "AE";
 
     /**
      * @param context class context
@@ -45,6 +45,10 @@ public class ISDCodeProvider {
      */
     public static ISDCodeProvider getIsdCodeProvider() {
         return isdCodeProvider;
+    }
+
+    public void setDefaultISD(String isdCode) {
+        DEFAULT_ISD_CODE = isdCode;
     }
 
     public List<Country> getCountriesCodeList() {
@@ -636,7 +640,7 @@ public class ISDCodeProvider {
 
     private void loadNationalityData(Context context, int rawFile) {
         nationalityDataList = new Gson().fromJson(loadJSONFromResource(context, rawFile),
-                new TypeToken<List<Country>>() {
+                new TypeToken<List<NationalityData>>() {
                 }.getType());
     }
 

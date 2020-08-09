@@ -19,6 +19,7 @@ import com.boloro.countrylib.adapter.CountrySearchAdapter;
 import com.boloro.countrylib.adapter.SearchAdapter;
 import com.boloro.countrylib.helper.Filterable;
 import com.boloro.countrylib.helper.ISDCodeProvider;
+import com.boloro.countrylib.helper.Utility;
 import com.boloro.countrylib.model.Country;
 import com.boloro.countrylib.model.NationalityData;
 import com.boloro.countrylib.model.Region;
@@ -42,7 +43,7 @@ public class CountryNationalityLib {
 
 
     private Dialog showSearchDialog(Context context,SearchAdapter<? extends Filterable> searchAdapter, SearchAdapter.CancelListener cancelListener) {
-        Dialog searchDialog = setDialogProperty(context, R.layout.search_dialog);
+        Dialog searchDialog = Utility.setDialogProperty(context, R.layout.search_dialog);
         searchDialog.setCancelable(true);
         RecyclerView recycleView = searchDialog.findViewById(R.id.recycler_view);
         recycleView.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false));
@@ -126,30 +127,7 @@ public class CountryNationalityLib {
     }
 
 
-    /**
-     * set dialog property
-     *
-     * @param context class context
-     * @param layout  layout
-     * @return dialog object
-     */
-    private Dialog setDialogProperty(final Context context, final int layout) {
-        final Dialog dialog = new Dialog(context);
-        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
-        Objects.requireNonNull(dialog.getWindow()).
-                setBackgroundDrawableResource(android.R.color.transparent);
-        dialog.setContentView(layout);
-        final WindowManager.LayoutParams lp = new WindowManager.LayoutParams();
-        lp.copyFrom(dialog.getWindow().getAttributes());
-        lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-        lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
-        lp.gravity = Gravity.CENTER;
-        dialog.setCancelable(false);
-        dialog.setCanceledOnTouchOutside(false);
-        dialog.getWindow().setAttributes(lp);
-        dialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
-        return dialog;
-    }
+
 
     public interface ICountryCallBack {
         void itemSelect(Country item);
